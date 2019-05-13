@@ -1,7 +1,7 @@
 <template lang="pug">
 	a.work(href="#")
 		.work__image
-			img(src="@/assets/logo.png" alt="name")
+			img(:src="imgUrl" alt="name")
 			.work__bottom 
 				.work__look
 					| Перейти к
@@ -20,8 +20,16 @@ export default {
   name: "work",
   props: {
     landings: Object
+  },
+  computed: {
+    imgUrl() {
+      return require(`@/assets/thumbs/${this.landings.src}.jpg`);
+    }
   }
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="sass">
+img
+	background-size: cover
+</style>

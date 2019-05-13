@@ -29,14 +29,19 @@ export default {
           id: 1,
           name: "familyps",
           link: "landings/familyps",
-          src: "familyps.gif"
+          src: "familyps"
         },
-        { id: 2, name: "jelmon", link: "landings/jelmon", src: "jelmon.gif" },
+        {
+          id: 2,
+          name: "jelmon",
+          link: "landings/jelmon",
+          src: "jelmon"
+        },
         {
           id: 3,
           name: "academy",
           link: "landings/academy",
-          src: "academy.gif"
+          src: "academy"
         },
         {
           id: 4,
