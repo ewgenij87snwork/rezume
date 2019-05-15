@@ -2,7 +2,7 @@
 	div
 		h1
 			| Небольшие лендинги
-		.works
+		.works 
 			<work :landings="landings[0]"></work>
 			<work :landings="landings[1]"></work>
 
@@ -23,13 +23,9 @@ export default {
 </script>
 <style lang="sass">
 .works
-	background: teal
 	display: grid
-	grid-template-columns: repeat(6,1fr)
+	grid-template-columns: repeat(2,1fr)
 	grid-gap: 50px
-	a.work
-		display: block
-		padding-bottom: 60%
-		border-radius: 3px
-		border: 2px solid yellow
+	padding: 50px
+	padding-top: 0
 </style>

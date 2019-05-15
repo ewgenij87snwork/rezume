@@ -2,10 +2,10 @@
   <div id="app">
     <div class="out">
       <div class="wrapper">
-        <!-- <display1></display1> -->
-        <display2 :landings="landings"></display2>
+        <!-- <display1></display1>
+        <display2 :landings="landings"></display2> -->
+        <display3 :landings="landings"></display3>
         <!--         
-        <display3></display3>
         <display4></display4>
         <footer></footer> -->
       </div>
@@ -15,9 +15,9 @@
 
 <script>
 // import display1 from "./displays/display1.vue";
-import display2 from "./displays/display2.vue";
+// import display2 from "./displays/display2.vue";
+import display3 from "./displays/display3.vue";
 /*
-  import display3 from "./displays/display3.vue"
   import display4 from "./displays/display4.vue"
   import footer from "./displays/footer.vue"
   */
@@ -47,45 +47,45 @@ export default {
           id: 4,
           name: "angrybirds",
           link: "landings/angrybirds",
-          src: "angrybirds.gif"
+          src: "angrybirds"
         },
         {
           id: 5,
           name: "bino",
           link: "landings/bino",
-          src: "bino.gif"
+          src: "bino"
         },
         {
           id: 6,
           name: "bizzy",
           link: "landings/bizzy",
-          src: "bizzy.gif"
+          src: "bizzy"
         },
         {
           id: 7,
           name: "chart",
           link: "landings/chart",
-          src: "chart.gif"
+          src: "chart"
         },
         {
           id: 8,
           name: "distantjob",
           link: "landings/distantjob",
-          src: "distantjob.gif"
+          src: "distantjob"
         },
         {
           id: 9,
           name: "fashion",
           link: "landings/fashion",
-          src: "fashion.gif"
+          src: "fashion"
         }
       ]
     };
   },
   components: {
     // display1,
-    display2
-    // display3,
+    // display2
+    display3
     // display4,
     // footer
   }
