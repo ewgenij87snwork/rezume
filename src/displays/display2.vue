@@ -21,7 +21,7 @@ export default {
   }
 };
 </script>
-<style lang="sass">
+<style lang="sass" scoped>
 .works
 	display: grid
 	grid-template-columns: repeat(2,1fr)

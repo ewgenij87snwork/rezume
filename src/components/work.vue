@@ -32,18 +32,11 @@ export default {
 	letter-spacing: 1px
 	position: relative
 	border: 1px solid black
-	&__wrap
-		display: grid
-		grid-template-columns: repeat(4,1fr)
-		grid-gap: 17px
-		// +r(620)
-		// 	grid-template-columns: repeat(2,1fr)
 	&__image
 		overflow: hidden
 		position: relative
 		display: block
 		padding-bottom: 70%
-
 		img
 			display: block
 			width: 100%
@@ -65,6 +58,7 @@ export default {
 		transform: translate(-50%,-50%)
 		font-weight: bold
 		opacity: 0
+		max-width: 20%
 	&__title
 		font-size: 1.5em
 		margin-bottom: 5px
@@ -75,11 +69,12 @@ export default {
 		line-height: 1.4
 		color: #fff
 	&:hover,&:active
-		.work__image
-			background: rgba(0,0,0, .5)
 		.work__bottom
+			min-width: 60%
+			max-width: 70%
 			transition: .5s ease-out
 			opacity: 1
+			background: rgba(0,0,0, .7)
 		.work__title
 			box-sizing: border-box
 			transition: .5s ease-out

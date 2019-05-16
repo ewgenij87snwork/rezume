@@ -1,6 +1,6 @@
 <template lang="pug">
 	<div>
-		<h1>Тренировочные</h1>
+		<h1>Микро-сайты (from "Code in the Dark")</h1>
 		<div class="works">
 			<work 
 			|:landings="landings" 
@@ -26,7 +26,7 @@ export default {
   }
 };
 </script>
-<style lang="sass">
+<style lang="sass" scoped>
 .works
 	display: grid
 	grid-template-columns: repeat(3,1fr)
