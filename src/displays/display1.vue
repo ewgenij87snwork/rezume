@@ -1,5 +1,5 @@
 <template lang="pug">
-	div
+	div.container
 		h1
 			| Портфолио-резюме
 			br
@@ -27,3 +27,13 @@ export default {
   name: "display1"
 };
 </script>
+<style scoped lang="sass">
+.container
+	max-width: 940px
+	margin: 0 auto
+	height: 100vh
+	min-height: 500px
+	position: relative
+.sides
+	display: flex
+</style>
