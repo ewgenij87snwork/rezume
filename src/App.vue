@@ -1,27 +1,10 @@
 <template>
   <div id="app">
-    <div class="out">
-      <div class="wrapper">
-        <display1></display1>
-        <display2 :landings="landings"></display2>
-        <display3 :landings="landings"></display3>
-        <display4 class="fff"></display4>
-        <!--         
-        <footer></footer> -->
-      </div>
-    </div>
     <router-view />
   </div>
 </template>
 
 <script>
-import display1 from "./displays/display1.vue";
-import display2 from "./displays/display2.vue";
-import display3 from "./displays/display3.vue";
-import display4 from "./displays/display4.vue";
-/*
-  import footer from "./displays/footer.vue"
-  */
 export default {
   data: function() {
     return {
@@ -82,13 +65,6 @@ export default {
         }
       ]
     };
-  },
-  components: {
-    display1,
-    display2,
-    display3,
-    display4
-    // footer
   }
 };
 </script>
