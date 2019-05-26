@@ -1,5 +1,5 @@
 <template>
-  <a href="#" class="work">
+  <router-link :to="landings.link" class="work">
     <div class="work__image">
       <img :src="imgUrl" alt="" />
     </div>
@@ -7,7 +7,7 @@
       <div class="work__title">Перейти</div>
       <div class="work__date">к просмотру <br />{{ landings.name }}</div>
     </div>
-  </a>
+  </router-link>
 </template>
 
 <script>

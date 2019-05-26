@@ -10,6 +10,7 @@
         <footer></footer> -->
       </div>
     </div>
+    <router-view />
   </div>
 </template>
 
@@ -28,55 +29,55 @@ export default {
         {
           id: 1,
           name: "familyps",
-          link: "landings/familyps",
+          link: "/familyps",
           src: "familyps"
         },
         {
           id: 2,
           name: "jelmon",
-          link: "landings/jelmon",
+          link: "/jelmon",
           src: "jelmon"
         },
         {
           id: 3,
           name: "academy",
-          link: "landings/academy",
+          link: "/academy",
           src: "academy"
         },
         {
           id: 4,
           name: "angrybirds",
-          link: "landings/angrybirds",
+          link: "/angrybirds",
           src: "angrybirds"
         },
         {
           id: 5,
           name: "bino",
-          link: "landings/bino",
+          link: "/bino",
           src: "bino"
         },
         {
           id: 6,
           name: "bizzy",
-          link: "landings/bizzy",
+          link: "/bizzy",
           src: "bizzy"
         },
         {
           id: 7,
           name: "chart",
-          link: "landings/chart"
-          // src: "chart"
+          link: "/chart",
+          src: "chart"
         },
         {
           id: 8,
           name: "distantjob",
-          link: "landings/distantjob",
+          link: "/distantjob",
           src: "distantjob"
         },
         {
           id: 9,
           name: "fashion",
-          link: "landings/fashion",
+          link: "/fashion",
           src: "fashion"
         }
       ]
@@ -94,6 +95,12 @@ export default {
 
 <style lang="sass">
 @import '@/sass/_mixins.sass'
+
+.container
+  max-width: 940px
+  margin: 0 auto
+  +r(960)
+    margin: 0 20px
 html, body
   padding: 0
   margin: 0
@@ -113,8 +120,4 @@ html, body
     color: #2c3e50
     &.router-link-exact-active
       color: #42b983
-.fff
-  margin: 0
-  padding: 0
-  background: rgba(0,0,0,.4)
 </style>

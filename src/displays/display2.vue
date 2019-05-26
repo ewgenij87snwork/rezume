@@ -1,5 +1,5 @@
 <template lang="pug">
-	div
+	div.container
 		h1
 			| Небольшие лендинги
 		.works 
@@ -23,9 +23,8 @@ export default {
 </script>
 <style lang="sass" scoped>
 @import '@/sass/_mixins.sass'
-html,body
-	+r(400)
-		margin: 50px
+
+
 .works
 	display: grid
 	grid-template-columns: repeat(2,1fr)

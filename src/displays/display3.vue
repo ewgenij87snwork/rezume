@@ -1,5 +1,5 @@
 <template lang="pug">
-	<div>
+	<div class="container">
 		<h1>Микро-сайты (from "Code in the Dark")</h1>
 		<div class="works">
 			<work 

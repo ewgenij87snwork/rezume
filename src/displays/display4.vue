@@ -1,44 +1,46 @@
 <template>
-  <div class="listWrap">
-    <div class="already">
-      <h4>Такое уже делал</h4>
-      <ul>
-        <li><span></span>подключие preloader</li>
-        <li>
-          <span></span>эффект начального появления всего материала на сайте
-        </li>
-        <li><span></span>эффекты при наведении</li>
-        <li><span></span>flex (загуглить как расписать)</li>
-        <li><span></span>подключение шрифтов</li>
-        <li><span></span>выпадающее меню</li>
-        <li><span></span>адаптация под мобильные дисплеи</li>
-        <li><span></span>popup (всплывающие окна)</li>
-        <li>
-          <span></span>небольшая настройка javascript (--это переписать как
-          правильно)
-        </li>
-        <li><span></span>слайдер</li>
-        <li>
-          <span></span>
-          размещение сайта на GithubPages, с которого сайт потом размещается на
-          бесплатном домене
-        </li>
-      </ul>
-    </div>
-    <div class="line"></div>
-    <div class="nochNicht">
-      <h4>С таким хочу разбираться</h4>
-      <ul>
-        <li><span></span>VueJs, а через него и JavaScript осваивать</li>
-        <li><span></span>Эффекты прокрутки страницы (scrolling)</li>
-        <li><span></span>БЭМ-нейминг</li>
-        <li><span></span>Git-репозитории (выход с разных аккаунтв)</li>
-        <li><span></span>Миксины (собирательство )</li>
-        <li><span></span>Canvas</li>
-        <li><span></span>Фон в движении</li>
-        <li><span></span>Все доступные свойства transition (>animation)</li>
-        <li><span></span>Загрузка файлов на сайт</li>
-      </ul>
+  <div class="container">
+    <div class="listWrap">
+      <div class="already">
+        <h4>Такое уже делал</h4>
+        <ul>
+          <li><span></span>подключие preloader</li>
+          <li>
+            <span></span>эффект начального появления всего материала на сайте
+          </li>
+          <li><span></span>эффекты при наведении</li>
+          <li><span></span>flex (загуглить как расписать)</li>
+          <li><span></span>подключение шрифтов</li>
+          <li><span></span>выпадающее меню</li>
+          <li><span></span>адаптация под мобильные дисплеи</li>
+          <li><span></span>popup (всплывающие окна)</li>
+          <li>
+            <span></span>небольшая настройка javascript (--это переписать как
+            правильно)
+          </li>
+          <li><span></span>слайдер</li>
+          <li>
+            <span></span>
+            размещение сайта на GithubPages, с которого сайт потом размещается
+            на бесплатном домене
+          </li>
+        </ul>
+      </div>
+      <div class="line"></div>
+      <div class="nochNicht">
+        <h4>С таким хочу разбираться</h4>
+        <ul>
+          <li><span></span>VueJs, а через него и JavaScript осваивать</li>
+          <li><span></span>Эффекты прокрутки страницы (scrolling)</li>
+          <li><span></span>БЭМ-нейминг</li>
+          <li><span></span>Git-репозитории (выход с разных аккаунтв)</li>
+          <li><span></span>Миксины (собирательство )</li>
+          <li><span></span>Canvas</li>
+          <li><span></span>Фон в движении</li>
+          <li><span></span>Все доступные свойства transition (>animation)</li>
+          <li><span></span>Загрузка файлов на сайт</li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
