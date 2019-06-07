@@ -7,64 +7,7 @@
 <script>
 export default {
   data: function() {
-    return {
-      landings: [
-        {
-          id: 1,
-          name: "familyps",
-          link: "/familyps",
-          src: "familyps"
-        },
-        {
-          id: 2,
-          name: "jelmon",
-          link: "/jelmon",
-          src: "jelmon"
-        },
-        {
-          id: 3,
-          name: "academy",
-          link: "/academy",
-          src: "academy"
-        },
-        {
-          id: 4,
-          name: "angrybirds",
-          link: "/angrybirds",
-          src: "angrybirds"
-        },
-        {
-          id: 5,
-          name: "bino",
-          link: "/bino",
-          src: "bino"
-        },
-        {
-          id: 6,
-          name: "bizzy",
-          link: "/bizzy",
-          src: "bizzy"
-        },
-        {
-          id: 7,
-          name: "chart",
-          link: "/chart",
-          src: "chart"
-        },
-        {
-          id: 8,
-          name: "distantjob",
-          link: "/distantjob",
-          src: "distantjob"
-        },
-        {
-          id: 9,
-          name: "fashion",
-          link: "/fashion",
-          src: "fashion"
-        }
-      ]
-    };
+    return {};
   }
 };
 </script>

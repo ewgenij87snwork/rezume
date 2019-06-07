@@ -21,6 +21,7 @@ import display4 from "./display4.vue";
   import footer from "./displays/footer.vue"
   */
 
+// import transitionTitle from "@/components/transitionTitle";
 export default {
   name: "home",
   data: function() {
@@ -83,6 +84,7 @@ export default {
       ]
     };
   },
+  // mixins: [transitionTitle],
   components: {
     display1,
     display2,

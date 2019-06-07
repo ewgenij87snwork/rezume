@@ -1,29 +1,26 @@
 <template>
-  <div>
-    <!-- <linkHome></linkHome> -->
-    <transitionTitle
-      :nextSendLanding="nextSendLanding"
-      :key="nextSendLanding.id"
-    ></transitionTitle>
-  </div>
+  <!-- <transition v-on:leave="leave" v-bind:css="false"> -->
+  <h1>{{ landings.name }}</h1>
+  <!-- </transition> -->
 </template>
 <script>
-// import linkHome from "@/components/linkHome.vue";
-import transitionTitle from "@/components/transitionTitle";
-
+import { TimelineMax } from "gsap";
 export default {
-  name: "academy",
-  components: {
-    // linkHome,
-    transitionTitle
-  },
+  name: "transitionTitle",
   props: {
-    nextSendLanding: Object
+    landings: Object
+  },
+  methods: {
+    leave: function(el, done) {
+      let tl = new TimelineMax({ onComplete: done });
+      tl.fromTo(el, 1.3, { y: 0, opacity: 1 }, { y: 100, opacity: 0 });
+    }
   }
 };
 </script>
+
 <style>
-.flip-enter-active {
+/*.flip-enter-active {
   transition: all 1.3s ease-in-out;
 }
 
@@ -51,5 +48,5 @@ export default {
 .letter {
   display: inline-block;
   position: relative;
-}
+}*/
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="landings.link" class="work">
+  <router-link :to="landings.link" class="work" @click.native="onClick">
     <div class="work__image">
       <img :src="imgUrl" alt="" />
     </div>
@@ -15,6 +15,11 @@ export default {
   name: "work",
   props: {
     landings: Object
+  },
+  methods: {
+    onClick: function() {
+      alert(this.landings.id);
+    }
   },
   computed: {
     imgUrl() {
