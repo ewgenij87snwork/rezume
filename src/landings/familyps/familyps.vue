@@ -1,9 +1,21 @@
 <template>
-  <h1>asdfasdfdsfdf</h1>
+  <div>
+    <h1>{{ k }}</h1>
+    <button :click="ga">asddf</button>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "familyps"
+  name: "familyps",
+  props: {
+    k: Array
+  },
+  methods: {
+    ga: function() {
+      console.log("sdsd");
+      return;
+    }
+  }
 };
 </script>

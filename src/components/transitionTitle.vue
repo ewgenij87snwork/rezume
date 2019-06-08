@@ -1,14 +1,24 @@
 <template>
   <!-- <transition v-on:leave="leave" v-bind:css="false"> -->
-  <h1>{{ landings.name }}</h1>
+  <h1>{{ landingsLink }}</h1>
+  <!-- <h1>{aaaaaaaaa</h1> -->
   <!-- </transition> -->
 </template>
 <script>
+import { eventBus } from "@/main";
 import { TimelineMax } from "gsap";
 export default {
   name: "transitionTitle",
-  props: {
-    landings: Object
+  data: function() {
+    return {
+      landingsLink: ""
+    };
+  },
+  created() {
+    eventBus.$on("landingsLink", data => {
+      this.landingsLink = data.landingsLink;
+    });
+    // alert(landingsLink);
   },
   methods: {
     leave: function(el, done) {

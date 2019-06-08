@@ -1,11 +1,5 @@
 <template>
-  <div>
-    <!-- <linkHome></linkHome> -->
-    <transitionTitle
-      :nextSendLanding="nextSendLanding"
-      :key="nextSendLanding.id"
-    ></transitionTitle>
-  </div>
+  <transitionTitle></transitionTitle>
 </template>
 <script>
 // import linkHome from "@/components/linkHome.vue";
@@ -16,40 +10,7 @@ export default {
   components: {
     // linkHome,
     transitionTitle
-  },
-  props: {
-    nextSendLanding: Object
   }
 };
 </script>
-<style>
-.flip-enter-active {
-  transition: all 1.3s ease-in-out;
-}
-
-.flip-leave-active {
-  transition: all 1.3s ease-in-out;
-}
-
-.flip-enter {
-  transform: translateY(-100%);
-  opacity: 0;
-}
-.flip-enter-to {
-  transform: translateY(0%);
-  opacity: 1;
-}
-
-.flip-leave {
-  transform: translateY(0);
-  opacity: 1;
-}
-.flip-leave-to {
-  transform: translateY(100%);
-  opacity: 0;
-}
-.letter {
-  display: inline-block;
-  position: relative;
-}
-</style>
+<style></style>
