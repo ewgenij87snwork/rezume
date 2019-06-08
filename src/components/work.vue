@@ -1,5 +1,5 @@
 <template>
-  <router-link @click.native="landingsLink" :to="landings.link" class="work">
+  <router-link :to="landings.link" class="work" @click.native="landingsLink">
     <div class="work__image">
       <img :src="imgUrl" alt="" />
     </div>
@@ -17,9 +17,11 @@ export default {
   props: {
     landings: Object
   },
-  data: function() {
-    return {};
-  },
+  // data: function() {
+  //   return {
+  //   	landingsLink: Object
+  //   };
+  // },
   methods: {
     landingsLink() {
       eventBus.$emit("landingsLink", {

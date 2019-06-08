@@ -1,6 +1,6 @@
 <template>
   <!-- <transition v-on:leave="leave" v-bind:css="false"> -->
-  <h1>{{ landingsLink }}</h1>
+  <h1></h1>
   <!-- <h1>{aaaaaaaaa</h1> -->
   <!-- </transition> -->
 </template>
