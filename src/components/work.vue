@@ -1,13 +1,17 @@
 <template>
-  <router-link :to="landings.link" class="work" @click.native="landingsLink">
-    <div class="work__image">
-      <img :src="imgUrl" alt="" />
+  <div>
+    <div @click="landingsLink">
+      <router-link :to="landings.link" class="work">
+        <div class="work__image">
+          <img :src="imgUrl" alt="" />
+        </div>
+        <div class="work__bottom">
+          <div class="work__title">Перейти</div>
+          <div class="work__date">к просмотру <br />{{ landings.name }}</div>
+        </div>
+      </router-link>
     </div>
-    <div class="work__bottom">
-      <div class="work__title">Перейти</div>
-      <div class="work__date">к просмотру <br />{{ landings.name }}</div>
-    </div>
-  </router-link>
+  </div>
 </template>
 
 <script>
