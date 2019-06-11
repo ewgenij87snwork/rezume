@@ -13,13 +13,13 @@ export default {
 </script>
 
 <style lang="sass">
-@import '@/sass/_mixins.sass'
+// @import '@/sass/_mixins.sass'
 
 .container
   max-width: 940px
   margin: 0 auto
-  +r(960)
-    margin: 0 20px
+  // +r(960)
+  //   margin: 0 20px
 html, body
   padding: 0
   margin: 0
