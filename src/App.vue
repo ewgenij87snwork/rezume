@@ -15,6 +15,7 @@ export default {
 <style lang="sass">
 // @import '@/sass/_mixins.sass'
 
+
 .container
   max-width: 940px
   margin: 0 auto
