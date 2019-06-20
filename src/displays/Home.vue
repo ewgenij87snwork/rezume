@@ -1,7 +1,7 @@
 <template>
   <div class="out">
     <div class="wrapper">
-      <!-- <display1></display1> -->
+      <display1></display1>
       <display2 :landings="landings"></display2>
       <display3 :landings="landings"></display3>
       <display4 class="fff"></display4>
@@ -13,7 +13,7 @@
 
 <script>
 // @ is an alias to /src
-// import display1 from "./display1.vue";
+import display1 from "./display1.vue";
 import display2 from "./display2.vue";
 import display3 from "./display3.vue";
 import display4 from "./display4.vue";
@@ -86,7 +86,7 @@ export default {
   },
   // mixins: [transitionTitle],
   components: {
-    // display1,
+    display1,
     display2,
     display3,
     display4
@@ -95,5 +95,5 @@ export default {
 };
 </script>
 <style lang="sass">
-// @import '@/../../sass/_mixins.sass'
+@import '@/../../sass/_mixins.sass'
 </style>

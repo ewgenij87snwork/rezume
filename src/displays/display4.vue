@@ -39,6 +39,10 @@
           <li><span></span>Фон в движении</li>
           <li><span></span>Все доступные свойства transition (>animation)</li>
           <li><span></span>Загрузка файлов на сайт</li>
+          <li>
+            <span></span>Взаимодействие с 1 000 000 базой продуктов,
+            исторических статей
+          </li>
         </ul>
       </div>
     </div>
@@ -73,15 +77,15 @@ ul
 			top: 0
 			height: 100%
 			width: 40px
-			background: #060606
+			background: rgba(98, 129, 202, 0.35)
 		&:after
 			content: ''
 			position: absolute
-			height: 2px
+			height: 1px
 			width: 100%
 			left: 0
 			bottom: 0
-			background: #CA6269
+			background: rgba(98, 129, 202, 0.55)
 			z-index: 999
 .listWrap
 	display: flex
@@ -112,15 +116,15 @@ ul
 				top: 0
 				height: 100%
 				width: 40px
-				background: #060606
+				background: rgba(98, 129, 202, 0.35)
 			&:after
 				content: ''
 				position: absolute
-				height: 2px
+				height: 1px
 				width: 100%
 				left: 0
 				bottom: 0
-				background: #27ba6a
+				background: rgba(98, 129, 202, 0.55)
 				z-index: 999
 .nochNicht
 	width: 47%
