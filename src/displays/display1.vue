@@ -11,7 +11,7 @@
 				a(href="#")
 					| Ссылка на GitHub
 				br
-				a(href="#")
+				a(href="https://ewgenij87snwork.github.io/rezume/")
 					| Ссылка на Facebook
 			.rightSide
 				img(src="@/assets/155_bg_450px_419px.jpg" alt="Сорокин Е.Н.")
@@ -44,6 +44,7 @@ export default {
 	height: 100vh
 	min-height: 500px
 	position: relative
+
 .header__wrap
 	display: flex
 	justify-content: space-between
