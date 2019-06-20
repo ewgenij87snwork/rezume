@@ -50,6 +50,7 @@
 </template>
 <script></script>
 <style scoped lang="sass">
+
 ul
 	padding: 0
 	li

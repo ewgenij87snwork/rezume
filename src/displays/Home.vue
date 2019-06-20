@@ -94,6 +94,10 @@ export default {
   }
 };
 </script>
-<style lang="sass">
+<style scoped lang="sass">
 @import '@/../../sass/_mixins.sass'
+.wrapper>*
+  margin-top: 100px
+.fff
+  border-top: 20px solid rgba(98, 129, 202, 0.35)
 </style>
