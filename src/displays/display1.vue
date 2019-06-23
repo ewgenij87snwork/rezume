@@ -38,6 +38,7 @@ export default {
 };
 </script>
 <style scoped lang="sass">
+@import '@/sass/_mixins.sass'
 .container
 	max-width: 940px
 	margin: 0 auto
@@ -49,6 +50,8 @@ export default {
 	display: flex
 	justify-content: space-between
 	margin-bottom: 50px
+	+r(750)
+		display: block
 	h1
 		align-self: center
 		a

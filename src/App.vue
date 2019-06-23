@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style lang="sass">
-// @import '@/sass/_mixins.sass'
+@import '@/sass/_mixins.sass'
 
 
 .container
