@@ -42,6 +42,7 @@ export default {
 </script>
 
 <style scoped lang="sass">
+@import '@/sass/_mixins.sass'
 .work
 	display: block
 	text-decoration: none
@@ -80,11 +81,15 @@ export default {
 		font-size: 1.5em
 		margin-bottom: 5px
 		color: #fff
+		+r(450)
+			font-size: 0.8em
 		// +bebas
 	&__date
 		font-size: 1em
 		line-height: 1.4
 		color: #fff
+		+r(450)
+			font-size: 0.6em
 	&:hover,&:active
 		.work__bottom
 			min-width: 60%

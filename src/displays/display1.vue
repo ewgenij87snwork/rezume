@@ -42,7 +42,8 @@ export default {
 .container
 	max-width: 940px
 	margin: 0 auto
-	height: 100vh
+	margin-bottom: 80px
+	min-height: 100vh
 	min-height: 500px
 	position: relative
 
