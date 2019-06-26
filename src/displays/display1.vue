@@ -1,7 +1,7 @@
 <template lang="pug">
 	div.container
 		.header__wrap
-			particles
+			particles.particles
 			h1
 				| Портфолио-резюме
 				br
@@ -36,11 +36,11 @@
 </template>
 
 <script>
-import particles from "@/components/particles"
+import particles from "@/components/particles";
 export default {
   name: "display1",
   components: {
-  	particles
+    particles
   }
 };
 </script>
@@ -54,7 +54,7 @@ export default {
 	min-height: 500px
 	position: relative
 	padding-top: 10vh
-	
+
 
 .header__wrap
 	display: flex
@@ -67,6 +67,10 @@ export default {
 		a
 			font-size: .7em
 
+.particles
+	width: 100%
+	height: 100%
+	position: absolute
 
 .sides
 	display: flex

@@ -35,7 +35,7 @@ export default {
 	min-height: 100vh
 	min-height: 500px
 	position: relative
-	
+
 
 .works
 	display: grid

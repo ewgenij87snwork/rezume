@@ -97,7 +97,7 @@ export default {
 <style scoped lang="sass">
 @import '@/../../sass/_mixins.sass'
 .out
-  background: #DCDCDC 
+  background: #DCDCDC
 .wrapper>*
   margin-top: 100px
   &:first-child

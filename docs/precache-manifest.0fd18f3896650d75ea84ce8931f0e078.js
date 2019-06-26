@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d309e92af7d379595eb9",
-    "url": "/css/app.acbddfd4.css"
+    "revision": "276a9ab718ef53f6a18a",
+    "url": "/css/app.7aebedde.css"
   },
   {
-    "revision": "d309e92af7d379595eb9",
-    "url": "/js/app.c26e25c8.js"
+    "revision": "276a9ab718ef53f6a18a",
+    "url": "/js/app.6e35e5fe.js"
   },
   {
     "revision": "1cdf3c16347bca305765",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/img/angrybirds.0beb0f87.jpg"
   },
   {
-    "revision": "7e6b77f7ab272bdcbfd28e940bb67230",
+    "revision": "3934149504b7becb429415c94c603eb0",
     "url": "/index.html"
   },
   {

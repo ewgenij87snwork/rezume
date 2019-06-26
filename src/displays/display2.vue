@@ -12,19 +12,19 @@
 import work from "@/components/work.vue";
 
 export default {
-	name: "display2",
-	props: {
-		landings: Array
-	},
-	components: {
-		work
-	},
-	data: function() {
-		return {
-			nextSendLandings: this.landings
-		};
-	},
-	methods: {}
+  name: "display2",
+  props: {
+    landings: Array
+  },
+  components: {
+    work
+  },
+  data: function() {
+    return {
+      nextSendLandings: this.landings
+    };
+  },
+  methods: {}
 };
 </script>
 <style lang="sass" scoped>
@@ -39,6 +39,4 @@ export default {
 	padding-top: 0
 	+r(500)
 		grid-template-columns: repeat(1,1fr)
-
-
 </style>

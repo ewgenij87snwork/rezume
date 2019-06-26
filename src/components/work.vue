@@ -50,7 +50,7 @@ export default {
 	letter-spacing: 1px
 	position: relative
 	border: 1px solid black
-	
+
 	&__image
 		overflow: hidden
 		position: relative
