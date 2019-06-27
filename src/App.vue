@@ -13,7 +13,6 @@ export default {
 </script>
 
 <style lang="sass">
-@import "/css/_normalize.css"
 
 @import '@/sass/_mixins.sass'
 

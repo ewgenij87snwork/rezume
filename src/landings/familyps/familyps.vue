@@ -376,7 +376,6 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-
-@import "./css/main.css"
+<style scoped>
+@import "./css/main.css";
 </style>
