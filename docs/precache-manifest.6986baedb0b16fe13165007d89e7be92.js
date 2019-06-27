@@ -108,20 +108,20 @@ self.__precacheManifest = [
     "url": "/img/angrybirds.0beb0f87.jpg"
   },
   {
-    "revision": "2120422515965e69a70e40e7280eecc4",
-    "url": "/img/family.21204225.svg"
-  },
-  {
     "revision": "479905deb7189d091d8870050d7b3e24",
     "url": "/img/phone-call.479905de.svg"
   },
   {
-    "revision": "970e84f39ffff6e1eaa0bf0b998dae42",
-    "url": "/img/top-line.970e84f3.png"
+    "revision": "2120422515965e69a70e40e7280eecc4",
+    "url": "/img/family.21204225.svg"
   },
   {
     "revision": "9e2291504ec6febe173e0abc9e20e206",
     "url": "/img/bottom-line.9e229150.png"
+  },
+  {
+    "revision": "970e84f39ffff6e1eaa0bf0b998dae42",
+    "url": "/img/top-line.970e84f3.png"
   },
   {
     "revision": "37549b3db30321f99cb39ad26427018f",
@@ -144,11 +144,11 @@ self.__precacheManifest = [
     "url": "/index.html"
   },
   {
-    "revision": "d1f317a82256d3128e6b40d47d41244c",
-    "url": "/css/_normalize.css"
-  },
-  {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
+  },
+  {
+    "revision": "d1ae6000aa56309dfc7ea2ccb6c9928f",
+    "url": "/css/_normalize.css"
   }
 ];
