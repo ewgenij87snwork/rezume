@@ -4,6 +4,9 @@ import router from "./router";
 // import store from "./store";
 import "./registerServiceWorker";
 
+// NPM
+// import "../node_modules/normalize.css/normalize.css";
+
 Vue.config.productionTip = false;
 
 export const eventBus = new Vue();

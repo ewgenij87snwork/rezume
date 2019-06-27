@@ -1,5 +1,37 @@
 https://ewgenij77snwork.github.io/rezume/
 ________________________________________________
+27.06.2019 
+Очередной сука тупик: normalize.css "This dependency was not found"
+________________________________________________
+26.06.2019
+На heroku сегодня забил. Particles.js сегодня поставил. Из лендингсов начал переливать familyps.
+
+Итак, каждая ошибка -- это чудо, она очень важна, она величествинна, она прекрасна!... 
+1) App.sass -- сначала ошибка т.к. вначале файла был лежал код от normalize.css. Удалил его и убрал ";"
+2) переименовал пути к картинкам с "../img" на "./img" -- теперь запустилось но криво
+3) при попытке импортировать отдельно normalize.css вылазит:
+	
+	This dependency was not found:                                                     
+	                                                                                   
+	* -!../../../node_modules/css-loader/index.js??ref--8-oneOf-1-1!../../../node_modul
+	es/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/s
+	rc/index.js??ref--8-oneOf-1-2!./@/sass/_normalize.css in ./node_modules/css-loader?
+	?ref--8-oneOf-1-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_m
+	odules/postcss-loader/src??ref--8-oneOf-1-2!./node_modules/sass-loader/lib/loader.j
+	s??ref--8-oneOf-1-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_module
+	s/vue-loader/lib??vue-loader-options!./src/landings/familyps/familyps.vue?vue&type=
+	style&index=0&id=8f6770d6&lang=sass&scoped=true&                                   
+	                                                                                   
+	To install it, you can run: npm install --save -!../../../node_modules/css-loader/i
+	ndex.js??ref--8-oneOf-1-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoa
+	der.js!../../../node_modules/postcss-loader/src/index.js??ref--8-oneOf-1-2!./@/sass
+	/_normalize.css        
+
+3.1 то что там написано установил -- не помогло
+3.2 npm i normalize.css -- не помогло
+3.3 npm i vue-style-loader css-loader  -- не помогло                                                        
+
+________________________________________________
 25.06.2019
 Сегодня должен начать ставить движущийся фон на первый экран через particle.js
 

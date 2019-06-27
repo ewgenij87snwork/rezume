@@ -1,246 +1,260 @@
 <template>
   <div>
-    <div class="wrapper">
-      <div class="page-header">
-        <div class="grid-header">
-          <div class="header-top">
-            <ul class="nav-menu">
-              <li>
-                <a class="li_a" href="#headway" title="Путь к успеху"
-                  >Путь к успеху
-                </a>
-              </li>
-              <li>
-                <a
-                  class="li_a"
-                  href="#familyway"
-                  title="Путь к счастливой семье"
-                  >Путь к счастливой семье</a
-                >
-              </li>
-              <li>
-                <a class="li_a" href="#escort" title="Как найти свою половинку"
-                  >Как найти свою половинку</a
-                >
-              </li>
-            </ul>
-            <a class="btn btn-header popup-link" href="#popup" title="Связаться"
-              >Связаться с нами</a
-            >
-          </div>
-          <div class="promo">
-            <a href="#" title="Центр семейной гармонии">
-              <h1 class="h1-title">
-                Центр <br />
-                Семейной гармонии
-              </h1></a
-            >
-            <p class="shrieben">Семья Яны и Ростислава <b> Людовик</b></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="consult">
-        <div class="grid-consult container">
-          <div class="consult-item consult--individual">
-            <h2 class="consult-title">Индивидуальные консультации</h2>
-          </div>
-          <div class="consult-item consult--family">
-            <h2 class="consult-title">Семейные консультации</h2>
-          </div>
-          <div class="consult-item consult--online">
-            <h2 class="consult-title">Онлайн консультации</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="headway" id="headway">
-        <div class="container">
-          <div class="grid-headway">
-            <header class="headway-header">
-              <h2 class="section-title">Путь к <span>успеху</span></h2>
+    <!-- BEGIN content -->
+    <div class="out">
+      <div class="wrapper">
+        <div class="page-header">
+          <div class="grid-header">
+            <div class="header-top">
+              <ul class="nav-menu">
+                <li>
+                  <a class="li_a" href="#headway" title="Путь к успеху"
+                    >Путь к успеху
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="li_a"
+                    href="#familyway"
+                    title="Путь к счастливой семье"
+                    >Путь к счастливой семье</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="li_a"
+                    href="#escort"
+                    title="Как найти свою половинку"
+                    >Как найти свою половинку</a
+                  >
+                </li>
+              </ul>
               <a
-                class="btn btn-manual"
-                href="http://familylouis.com/index.php?categoryID=614&amp;category_slug=vybor-zhiznennogo-puti-kem-byt"
-                title="Более подробно"
-                target="_blank"
+                class="btn btn-header popup-link"
+                href="#popup"
+                title="Связаться"
+                >Связаться с нами</a
               >
-                Более подробно <br />
-                на familylouis.com</a
-              >
-            </header>
-            <div class="wayup">
-              <div class="wayup-item wayup-item__1">Задатки</div>
-              <div class="wayup-arrow wayup-arrow__1"></div>
-              <div class="wayup-item wayup-item__2">Способности</div>
-              <div class="wayup-arrow wayup-arrow__2"></div>
-              <div class="wayup-item wayup-item__3">Успех</div>
-              <div class="wayup-arrow wayup-arrow__3"></div>
-              <div class="wayup-item wayup-item__4">Счастье</div>
             </div>
-            <section class="headway-section">
-              <div class="way-item headway-item__1">
-                <p>
-                  Следуя своим желаниям - быть счастливым человеком, каждый из
-                  нас ищет то, что больше всего приносит удовлетворение. Кого-то
-                  куда-то тянет какая-то невидимая сила, которая, как медом
-                  наполняет все существо, если мы достигаем каких-то
-                  результатов. Собственно нас можно разделить по нашим
-                  желаниям-интересам.
-                </p>
-                <ul class="spisok_check">
-                  <li>
-                    <i class="fas fa-check-square"></i> достичь карьерных высот
-                  </li>
-                  <li><i class="fas fa-check-square"></i> заработать деньги</li>
-                  <li>
-                    <i class="fas fa-check-square"></i> развить талант и достичь
-                    славы
-                  </li>
-                  <li>
-                    <i class="fas fa-check-square"></i> развить духовные знания
-                  </li>
-                  <li>
-                    <i class="fas fa-check-square"></i> создать счастливую семью
-                  </li>
-                </ul>
-              </div>
-              <div class="way-item headway-item__2">
-                <p>
-                  Есть люди, полагающие, что Счастье - это Судьба, а есть
-                  Личности, создавшие Свое счастье Своими Руками. Наши
-                  возможности именно для Личностей, готовых создавать счастье
-                  своими руками, используя новейшие проверенные Знания.
-                </p>
-                <ul>
-                  <li>Наши эксперты дают возможность для личностного роста</li>
-                  <li>
-                    Найти способ оптимального взаимодействия в семье и на работе
-                  </li>
-                  <li>
-                    Обоснование перспектив отношений в формате: “я и мое
-                    окружение”
-                  </li>
-                </ul>
-              </div>
-            </section>
-            <a
-              class="btn btn-headway popup-link"
-              href="#popup"
-              title="Связаться"
-            >
-              Помощь эксперта в определении с выбором дальнейшего жизненного
-              пути</a
-            >
+            <div class="promo">
+              <a href="#" title="Центр семейной гармонии">
+                <h1 class="h1-title">
+                  Центр <br />
+                  Семейной гармонии
+                </h1>
+              </a>
+              <p class="shrieben">Семья Яны и Ростислава <b> Людовик</b></p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="familyway" id="familyway">
-        <div class="container">
-          <header>
-            <h2 class="section-title">Путь к <span>счастливой семье </span></h2>
-          </header>
-          <section class="family-section">
-            <div class="way-item familyway-item">
-              <p>
-                Известны несколько основных религий, на основании которых
-                создана культура семьи. Культура Запада утверждает, что все
-                браки созданы на небесах, поэтому ваш выбор был согласован с
-                Богом. Большая часть венчаных почему-то потом не соглашается
-                жить вместе всю жизнь, как бы не обращая внимания на решение
-                Всевышнего... И затем, начинают идти окольными путями. Долгое
-                время выбирая, принимая, отвергая...
-              </p>
-              <p>Данным Знаниям возможно обучиться!</p>
+        <div class="consult">
+          <div class="grid-consult container">
+            <div class="consult-item consult--individual">
+              <h2 class="consult-title">Индивидуальные консультации</h2>
             </div>
-            <div class="way-item familyway-item">
-              <p>
-                Гармонизатор отношений (эксперт) определяет совместимость
-                сотрудничающих или проживающих 2 людей. Совместимость состоит из
-                уровней комфортности. Уровни совместимости включают в себя
-                следующие категории: духовный, интеллектуальный, социальный,
-                интимный, энергетический. Выдается описание результата
-                взаимодействия в перстпективе на несколько лет.
-              </p>
+            <div class="consult-item consult--family">
+              <h2 class="consult-title">Семейные консультации</h2>
             </div>
-          </section>
-          <p class="bottom-text">
-            Прежде всего Вы получите инструмент улучшения отношений <br />
-            с мужем или женой и взрослеющими детьми!
-          </p>
+            <div class="consult-item consult--online">
+              <h2 class="consult-title">Онлайн консультации</h2>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="escort" id="escort">
-        <div class="container">
-          <div class="grid-escort">
+        <div class="headway" id="headway">
+          <div class="container">
+            <div class="grid-headway">
+              <header class="headway-header">
+                <h2 class="section-title">Путь к <span>успеху</span></h2>
+                <a
+                  class="btn btn-manual"
+                  href="http://familylouis.com/index.php?categoryID=614&amp;category_slug=vybor-zhiznennogo-puti-kem-byt"
+                  title="Более подробно"
+                  target="_blank"
+                >
+                  Более подробно <br />
+                  на familylouis.com</a
+                >
+              </header>
+              <div class="wayup">
+                <div class="wayup-item wayup-item__1">Задатки</div>
+                <div class="wayup-arrow wayup-arrow__1"></div>
+                <div class="wayup-item wayup-item__2">Способности</div>
+                <div class="wayup-arrow wayup-arrow__2"></div>
+                <div class="wayup-item wayup-item__3">Успех</div>
+                <div class="wayup-arrow wayup-arrow__3"></div>
+                <div class="wayup-item wayup-item__4">Счастье</div>
+              </div>
+              <section class="headway-section">
+                <div class="way-item headway-item__1">
+                  <p>
+                    Следуя своим желаниям - быть счастливым человеком, каждый из
+                    нас ищет то, что больше всего приносит удовлетворение.
+                    Кого-то куда-то тянет какая-то невидимая сила, которая, как
+                    медом наполняет все существо, если мы достигаем каких-то
+                    результатов. Собственно нас можно разделить по нашим
+                    желаниям-интересам.
+                  </p>
+                  <ul class="spisok_check">
+                    <li>
+                      <i class="fas fa-check-square"></i> достичь карьерных
+                      высот
+                    </li>
+                    <li>
+                      <i class="fas fa-check-square"></i> заработать деньги
+                    </li>
+                    <li>
+                      <i class="fas fa-check-square"></i> развить талант и
+                      достичь славы
+                    </li>
+                    <li>
+                      <i class="fas fa-check-square"></i> развить духовные
+                      знания
+                    </li>
+                    <li>
+                      <i class="fas fa-check-square"></i> создать счастливую
+                      семью
+                    </li>
+                  </ul>
+                </div>
+                <div class="way-item headway-item__2">
+                  <p>
+                    Есть люди, полагающие, что Счастье - это Судьба, а есть
+                    Личности, создавшие Свое счастье Своими Руками. Наши
+                    возможности именно для Личностей, готовых создавать счастье
+                    своими руками, используя новейшие проверенные Знания.
+                  </p>
+                  <ul>
+                    <li>
+                      Наши эксперты дают возможность для личностного роста
+                    </li>
+                    <li>
+                      Найти способ оптимального взаимодействия в семье и на
+                      работе
+                    </li>
+                    <li>
+                      Обоснование перспектив отношений в формате: “я и мое
+                      окружение”
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <a
+                class="btn btn-headway popup-link"
+                href="#popup"
+                title="Связаться"
+              >
+                Помощь эксперта в определении с выбором дальнейшего жизненного
+                пути</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="familyway" id="familyway">
+          <div class="container">
             <header>
               <h2 class="section-title">
-                Как найти <span>свою половинку?</span>
+                Путь к <span>счастливой семье </span>
               </h2>
             </header>
-            <section class="section-polovinka">
-              <div class="escort-item">
-                <h3 class="sub-title">
-                  Определение энергетической совместимости
-                </h3>
+            <section class="family-section">
+              <div class="way-item familyway-item">
                 <p>
-                  Первооткрывательница Законов Отношений - советская ученая
-                  Аушра Аугустинавичюте. Наша семья создана именно по данным
-                  законам и мы исследоывали и подтерждаем правльность их
-                  действия.
+                  Известны несколько основных религий, на основании которых
+                  создана культура семьи. Культура Запада утверждает, что все
+                  браки созданы на небесах, поэтому ваш выбор был согласован с
+                  Богом. Большая часть венчаных почему-то потом не соглашается
+                  жить вместе всю жизнь, как бы не обращая внимания на решение
+                  Всевышнего... И затем, начинают идти окольными путями. Долгое
+                  время выбирая, принимая, отвергая...
                 </p>
-                <p>
-                  Мы восьмой год изучаем наши внутрисемейные отношения и
-                  отношения других счастливых семей. Все счастливые семьи
-                  построены сознательно или бессознательно на действии законов
-                  отношений, открытых Аушрой. Самые гармоничные отношения -
-                  дуальные отношения.
-                </p>
+                <p>Данным Знаниям возможно обучиться!</p>
               </div>
-              <div class="escort-item">
-                <h3 class="sub-title">
-                  Осознание своих сексуальных потребностей
-                </h3>
+              <div class="way-item familyway-item">
                 <p>
-                  Суть подхода – определении разносторонней совместимости:
-                  душевную, сексуальную, ролевую, интеллектуальную и т.д.
+                  Гармонизатор отношений (эксперт) определяет совместимость
+                  сотрудничающих или проживающих 2 людей. Совместимость состоит
+                  из уровней комфортности. Уровни совместимости включают в себя
+                  следующие категории: духовный, интеллектуальный, социальный,
+                  интимный, энергетический. Выдается описание результата
+                  взаимодействия в перстпективе на несколько лет.
                 </p>
-                <p>
-                  В результате общения с Вами Вы будете знать свои – важные для
-                  понимания перспектив длительного совместного проживания –
-                  особенности характера и душевного склада.<br />
-                  В результате общения с потенциально подходящим человеком мы
-                  сможем уверенно ответить на вопрос: каким именно образом с
-                  данным человеком комфортно и плодотворно жить?
-                </p>
-              </div>
-              <div class="escort-item">
-                <div class="sub-escort-item">
-                  <h3 class="sub-title">Прогноз отношений на перспективу</h3>
-                  <p>
-                    Мы не спрашиваем дни рождения. Мы с Вами беседем на
-                    интересные для Вас темы. Вы просто узнаете себя по некоторым
-                    штрихам, все ваши проявления, поведение, стремления и
-                    желания в нашем описании. Это то, что даст Вам осознание
-                    себя, обоснованную уверенность в себе.
-                  </p>
-                </div>
-                <a
-                  class="btn btn-escort popup-link"
-                  href="#popup"
-                  title="Связаться"
-                >
-                  Задайте вопрос! <br />
-                  Мы с радостью ответим!</a
-                >
               </div>
             </section>
+            <p class="bottom-text">
+              Прежде всего Вы получите инструмент улучшения отношений <br />
+              с мужем или женой и взрослеющими детьми!
+            </p>
           </div>
         </div>
-      </div>
-      <!--   
+        <div class="escort" id="escort">
+          <div class="container">
+            <div class="grid-escort">
+              <header>
+                <h2 class="section-title">
+                  Как найти <span>свою половинку?</span>
+                </h2>
+              </header>
+              <section class="section-polovinka">
+                <div class="escort-item">
+                  <h3 class="sub-title">
+                    Определение энергетической совместимости
+                  </h3>
+                  <p>
+                    Первооткрывательница Законов Отношений - советская ученая
+                    Аушра Аугустинавичюте. Наша семья создана именно по данным
+                    законам и мы исследоывали и подтерждаем правльность их
+                    действия.
+                  </p>
+                  <p>
+                    Мы восьмой год изучаем наши внутрисемейные отношения и
+                    отношения других счастливых семей. Все счастливые семьи
+                    построены сознательно или бессознательно на действии законов
+                    отношений, открытых Аушрой. Самые гармоничные отношения -
+                    дуальные отношения.
+                  </p>
+                </div>
+                <div class="escort-item">
+                  <h3 class="sub-title">
+                    Осознание своих сексуальных потребностей
+                  </h3>
+                  <p>
+                    Суть подхода – определении разносторонней совместимости:
+                    душевную, сексуальную, ролевую, интеллектуальную и т.д.
+                  </p>
+                  <p>
+                    В результате общения с Вами Вы будете знать свои – важные
+                    для понимания перспектив длительного совместного проживания
+                    – особенности характера и душевного склада.<br />
+                    В результате общения с потенциально подходящим человеком мы
+                    сможем уверенно ответить на вопрос: каким именно образом с
+                    данным человеком комфортно и плодотворно жить?
+                  </p>
+                </div>
+                <div class="escort-item">
+                  <div class="sub-escort-item">
+                    <h3 class="sub-title">Прогноз отношений на перспективу</h3>
+                    <p>
+                      Мы не спрашиваем дни рождения. Мы с Вами беседем на
+                      интересные для Вас темы. Вы просто узнаете себя по
+                      некоторым штрихам, все ваши проявления, поведение,
+                      стремления и желания в нашем описании. Это то, что даст
+                      Вам осознание себя, обоснованную уверенность в себе.
+                    </p>
+                  </div>
+                  <a
+                    class="btn btn-escort popup-link"
+                    href="#popup"
+                    title="Связаться"
+                  >
+                    Задайте вопрос! <br />
+                    Мы с радостью ответим!</a
+                  >
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!--   
       <div class="book">
       <div class="container">
         <header class="book-header">
@@ -259,8 +273,7 @@
         </section>
       </div>
       </div> -->
-
-      <!--   <div id="menu-toggle"></div>
+        <!--   <div id="menu-toggle"></div>
       <nav>
       <ul class="menu">
         <li><a class="li_a" href="#headway" title="Путь к успеху">Путь к успеху </a></li>
@@ -268,78 +281,83 @@
         <li><a class="li_a" href="#escort" title="Как найти свою половинку">Как найти свою половинку</a></li>
       </ul>
       </nav> -->
-    </div>
-
-    <div class="footer-page footer1" style=" background: url(img/fooger.jpg); ">
-      <div class="container">
-        <div class="footer">
-          <a
-            href="#"
-            class="footer1__logo"
-            title="Программа “ПОДГОТОВКА К ГАРМОНИЧНОЙ СЕМЬЕ” авторы Яна и Ростислав Людовик"
-            target="_blank"
-            >Программа<br />
-            “ПОДГОТОВКА К ГАРМОНИЧНОЙ СЕМЬЕ” <br />
-            <i>авторы Яна и Ростислав Людовик</i></a
-          >
-          <div class="copyright footer1__copy">
-            <p>
-              Информация взята с сайта
-              <a
-                href="http://familylouis.com/"
-                title="familylouis.com"
-                target="_blank"
-                >http://familylouis.com/
-              </a>
-            </p>
+      </div>
+      <div class="footer-page footer1">
+        <div class="container">
+          <div class="footer">
+            <a
+              href="#"
+              class="footer1__logo"
+              title="Программа “ПОДГОТОВКА К ГАРМОНИЧНОЙ СЕМЬЕ” авторы Яна и Ростислав Людовик"
+              target="_blank"
+              >Программа<br />
+              “ПОДГОТОВКА К ГАРМОНИЧНОЙ СЕМЬЕ” <br />
+              <i>авторы Яна и Ростислав Людовик</i></a
+            >
+            <div class="copyright footer1__copy">
+              <p>
+                Информация взята с сайта
+                <a
+                  href="http://familylouis.com/"
+                  title="familylouis.com"
+                  target="_blank"
+                  >http://familylouis.com/
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="mfp-hide popup forma-svjazi" id="popup">
-      <form action="static/test-script.php" method="get" target="_blank">
-        <div class="feedback-form-group">
-          <label for="name">Представьтесь, пожалуйста:</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Ваше имя"
-            required
-          />
-        </div>
-        <div class="feedback-form-group">
-          <div class="feedback-form-group-left">
-            <label for="tel">Контактный телефон:</label>
-            <input type="tel" name="tel" id="tel" placeholder="" />
+      <div class="mfp-hide popup forma-svjazi" id="popup">
+        <form action="static/test-script.php" method="get" target="_blank">
+          <div class="feedback-form-group">
+            <label for="name">Представьтесь, пожалуйста:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Ваше имя"
+              required
+            />
           </div>
-          <div class="feedback-form-group-right">
-            <label for="email">Электронная почта:</label>
-            <input type="email" name="email" id="email" placeholder="E-mail" />
+          <div class="feedback-form-group">
+            <div class="feedback-form-group-left">
+              <label for="tel">Контактный телефон:</label>
+              <input type="tel" name="tel" id="tel" placeholder="" />
+            </div>
+            <div class="feedback-form-group-right">
+              <label for="email">Электронная почта:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+            </div>
           </div>
-        </div>
-        <div class="feedback-form-group">
-          <label for="topic">Категория обращения:</label>
-          <select name="topic" id="topic">
-            <option value="1">Вопросы</option>
-            <option value="2">Консультация</option>
-            <option value="3">Сотрудничество</option>
-          </select>
-        </div>
-        <div class="feedback-form-group">
-          <label for="message">Текст обращения:</label>
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="5"
-            required
-          ></textarea>
-        </div>
-        <input class="btn btn-submit" type="submit" value="Отправить" />
-      </form>
+          <div class="feedback-form-group">
+            <label for="topic">Категория обращения:</label>
+            <select name="topic" id="topic">
+              <option value="1">Вопросы</option>
+              <option value="2">Консультация</option>
+              <option value="3">Сотрудничество</option>
+            </select>
+          </div>
+          <div class="feedback-form-group">
+            <label for="message">Текст обращения:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <input class="btn btn-submit" type="submit" value="Отправить" />
+        </form>
+      </div>
     </div>
+    <!-- END content -->
   </div>
 </template>
 
@@ -359,5 +377,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-@import "./sass/app.sass"
+
+@import "./css/main.css"
 </style>

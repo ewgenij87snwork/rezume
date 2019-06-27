@@ -13,8 +13,9 @@ export default {
 </script>
 
 <style lang="sass">
-@import '@/sass/_mixins.sass'
+@import "/css/_normalize.css"
 
+@import '@/sass/_mixins.sass'
 
 .container
   max-width: 940px
