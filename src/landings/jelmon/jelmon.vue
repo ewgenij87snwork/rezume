@@ -1,382 +1,332 @@
 <template>
-	<div class="out">
-		<div class="wrapper">
-			<header class="header">
-				<div class="container">
-					<div class="header__wrap">
-						<a href="#" class="header__logo">
-							<div class="logo__part1">Nasi</div>
-							<div class="logo__part2">Ze</div>
-						</a>
-						<div class="header__nav">
-							<div class="nav">
-								<a href="#">HOME</a>
-								<a href="#">ABOUT US</a>
-								<a href="#">BLOG</a>
-								<a href="#">PORTFOLIO</a>
-								<a href="#">CONTACT US</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
+  <div class="out">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrap">
+            <a href="#" class="header__logo">
+              <div class="logo__part1">Nasi</div>
+              <div class="logo__part2">Ze</div>
+            </a>
+            <div class="header__nav">
+              <div class="nav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">BLOG</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">CONTACT US</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
 
-			<!-- begin hero -->
-			<div class="hero">
-				<div class="container">
-					<div class="hero__wrap">
-						<div class="slider">
-							<div class="slider__next">{{ mixins.icon("arrow") }}</div>
-							<div class="slider__prev">{{ mixins.icon("arrow") }}</div>
-							<div class="slider__slides js-hero">
-								<div
-									class="slider__slide slide"
-									style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
-								>
-									<div class="slide__content">
-										<div class="slide__title">Lora Ipsum</div>
-										<div class="slide__text">
-											<p>
-												Lorem ipsum dolor sit amet, malorum recteque reprehendunt
-												ea vel. Urbanitas adolescens vim te, per at tritani
-												aperiri. Adhuc invenire convenire his ea.
-											</p>
-										</div>
-									</div>
-								</div>
+      <!-- begin hero -->
+      <div class="hero">
+        <div class="container">
+          <div class="hero__wrap">
+            <div class="slider">
+              <div class="slider__next">{{ mixins.icon("arrow") }}</div>
+              <div class="slider__prev">{{ mixins.icon("arrow") }}</div>
+              <div class="slider__slides js-hero">
+                <div
+                  class="slider__slide slide"
+                  style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
+                >
+                  <div class="slide__content">
+                    <div class="slide__title">Lora Ipsum</div>
+                    <div class="slide__text">
+                      <p>
+                        Lorem ipsum dolor sit amet, malorum recteque
+                        reprehendunt ea vel. Urbanitas adolescens vim te, per at
+                        tritani aperiri. Adhuc invenire convenire his ea.
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-								<div
-									class="slider__slide slide"
-									style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
-								>
-									<div class="slide__content">
-										<div class="slide__title">Ipsum Dolor</div>
-										<div class="slide__text">
-											Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
-											vel. Urbanitas adolescens vim te, per at tritani aperiri.
-											Adhuc invenire convenire his ea.
-										</div>
-									</div>
-								</div>
+                <div
+                  class="slider__slide slide"
+                  style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
+                >
+                  <div class="slide__content">
+                    <div class="slide__title">Ipsum Dolor</div>
+                    <div class="slide__text">
+                      Lorem ipsum dolor sit amet, malorum recteque reprehendunt
+                      ea vel. Urbanitas adolescens vim te, per at tritani
+                      aperiri. Adhuc invenire convenire his ea.
+                    </div>
+                  </div>
+                </div>
 
-								<div
-									class="slider__slide slide"
-									style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
-								>
-									<div class="slide__content">
-										<div class="slide__title">Dolor Amet</div>
-										<div class="slide__text">
-											Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
-											vel. Urbanitas adolescens vim te, per at tritani aperiri.
-											Adhuc invenire convenire his ea.
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                <div
+                  class="slider__slide slide"
+                  style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
+                >
+                  <div class="slide__content">
+                    <div class="slide__title">Dolor Amet</div>
+                    <div class="slide__text">
+                      Lorem ipsum dolor sit amet, malorum recteque reprehendunt
+                      ea vel. Urbanitas adolescens vim te, per at tritani
+                      aperiri. Adhuc invenire convenire his ea.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-						<!-- begin thumbs -->
-						<div class="thumbs">
-							<ul>
-								<li>
-									<a
-										href="#"
-										style="background: url(img/work.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-									></a>
-								</li>
-								<li>
-									<a
-										href="#"
-										style="background: url(img/work2.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-									></a>
-								</li>
-								<li>
-									<a
-										href="#"
-										style="background: url(img/work3.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-									></a>
-								</li>
-								<li>
-									<a
-										href="#"
-										style="background: url(img/work4.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-									></a>
-								</li>
-								<li>
-									<a
-										href="#"
-										style="background: url(img/work5.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-									></a>
-								</li>
-								<li>
-									<a
-										href="#"
-										style="background: url(img/work6.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-									></a>
-								</li>
-							</ul>
-						</div>
-						<!-- end thumbs -->
-					</div>
-				</div>
-			</div>
-			<!-- end hero -->
+            <!-- begin thumbs -->
+            <div class="thumbs">
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    style="background: url(img/work.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    style="background: url(img/work2.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    style="background: url(img/work3.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    style="background: url(img/work4.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    style="background: url(img/work5.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    style="background: url(img/work6.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <!-- end thumbs -->
+          </div>
+        </div>
+      </div>
+      <!-- end hero -->
 
-			<!-- begin content -->
-			<div class="content">
-				<div class="container">
-					<div class="features">
-						<div class="features__wrap">
-							<div class="feature">
-								<div class="feature__title">
-									<div class="feature__icon">
-										<div class="icon">{{ mixins.icon("cog") }}</div>
-									</div>
-									<h2>Check out my latest portfolio items</h2>
-								</div>
-								<div class="feature__text">
-									<p>
-										Maecenas ipsum metus, semper hendrerit varius mattis, congue
-										sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut
-										elementum enim rutrum. Nam mi erat, porta id ultrices nec,
-										pellentesque vel nunc. Cras varius fermentum iaculis. Aenean
-										sodales nibh non lectus tempor a interdum justo ultricies.
-									</p>
-								</div>
-								<a href="#" class="button">MORE</a>
-							</div>
+      <!-- begin content -->
+      <div class="content">
+        <div class="container">
+          <div class="features">
+            <div class="features__wrap">
+              <div class="feature">
+                <div class="feature__title">
+                  <div class="feature__icon">
+                    <div class="icon">{{ mixins.icon("cog") }}</div>
+                  </div>
+                  <h2>Check out my latest portfolio items</h2>
+                </div>
+                <div class="feature__text">
+                  <p>
+                    Maecenas ipsum metus, semper hendrerit varius mattis, congue
+                    sit amet tellus. Aliquam ullamcorper dui sed magna posue re
+                    ut elementum enim rutrum. Nam mi erat, porta id ultrices
+                    nec, pellentesque vel nunc. Cras varius fermentum iaculis.
+                    Aenean sodales nibh non lectus tempor a interdum justo
+                    ultricies.
+                  </p>
+                </div>
+                <a href="#" class="button">MORE</a>
+              </div>
 
-							<div class="feature">
-								<div class="feature__title">
-									<div class="feature__icon">
-										<div class="icon">{{ mixins.icon("check") }}</div>
-									</div>
-									<h2>Offer Top Notch Quality Work & Services</h2>
-								</div>
-								<div class="feature__text">
-									<p>
-										Maecenas ipsum metus, semper hendrerit varius mattis, congue
-										sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut
-										elementum enim rutrum. Nam mi erat, porta id ultrices nec,
-										pellentesque vel nunc. Cras varius fermentum iaculis. Aenean
-										sodales nibh non lectus tempor a interdum justo ultricies.
-									</p>
-								</div>
-								<a href="#" class="button">MORE</a>
-							</div>
+              <div class="feature">
+                <div class="feature__title">
+                  <div class="feature__icon">
+                    <div class="icon">{{ mixins.icon("check") }}</div>
+                  </div>
+                  <h2>Offer Top Notch Quality Work & Services</h2>
+                </div>
+                <div class="feature__text">
+                  <p>
+                    Maecenas ipsum metus, semper hendrerit varius mattis, congue
+                    sit amet tellus. Aliquam ullamcorper dui sed magna posue re
+                    ut elementum enim rutrum. Nam mi erat, porta id ultrices
+                    nec, pellentesque vel nunc. Cras varius fermentum iaculis.
+                    Aenean sodales nibh non lectus tempor a interdum justo
+                    ultricies.
+                  </p>
+                </div>
+                <a href="#" class="button">MORE</a>
+              </div>
 
-							<div class="feature">
-								<div class="feature__title">
-									<div class="feature__icon">
-										<div class="icon">{{ mixins.icon("user") }}</div>
-									</div>
-									<h2>Follow Me on Twitter, Facebook & Pinterest</h2>
-								</div>
-								<div class="feature__text">
-									<p>
-										Maecenas ipsum metus, semper hendrerit varius mattis, congue
-										sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut
-										elementum enim rutrum. Nam mi erat, porta id ultrices nec,
-										pellentesque vel nunc. Cras varius fermentum iaculis. Aenean
-										sodales nibh non lectus tempor a interdum justo ultricies.
-									</p>
-								</div>
-								<a href="#" class="button">MORE</a>
-							</div>
-						</div>
-					</div>
+              <div class="feature">
+                <div class="feature__title">
+                  <div class="feature__icon">
+                    <div class="icon">{{ mixins.icon("user") }}</div>
+                  </div>
+                  <h2>Follow Me on Twitter, Facebook & Pinterest</h2>
+                </div>
+                <div class="feature__text">
+                  <p>
+                    Maecenas ipsum metus, semper hendrerit varius mattis, congue
+                    sit amet tellus. Aliquam ullamcorper dui sed magna posue re
+                    ut elementum enim rutrum. Nam mi erat, porta id ultrices
+                    nec, pellentesque vel nunc. Cras varius fermentum iaculis.
+                    Aenean sodales nibh non lectus tempor a interdum justo
+                    ultricies.
+                  </p>
+                </div>
+                <a href="#" class="button">MORE</a>
+              </div>
+            </div>
+          </div>
 
-					<!-- begin works -->
-					<div class="works">
-						<h3 class="h3">RECENT Landschaft WORKS</h3>
-						<div class="work__wrap">
-							<a href="#" class="work">
-								<div class="work__image">
-									<img src="img/work8.jpg" alt="" />
-								</div>
-								<div class="work__bottom">
-									<div class="work__title">Landschaft Design</div>
-									<div class="work__date">June 15, 2012</div>
-								</div>
-							</a>
+          <!-- begin works -->
+          <div class="works">
+            <h3 class="h3">RECENT Landschaft WORKS</h3>
+            <div class="work__wrap">
+              <a href="#" class="work">
+                <div class="work__image">
+                  <img src="img/work8.jpg" alt="" />
+                </div>
+                <div class="work__bottom">
+                  <div class="work__title">Landschaft Design</div>
+                  <div class="work__date">June 15, 2012</div>
+                </div>
+              </a>
 
-							<a href="#" class="work">
-								<div class="work__image">
-									<img src="img/work3.jpg" alt="" />
-								</div>
-								<div class="work__bottom">
-									<div class="work__title">Landschaft Design</div>
-									<div class="work__date">June 15, 2012</div>
-								</div>
-							</a>
+              <a href="#" class="work">
+                <div class="work__image">
+                  <img src="img/work3.jpg" alt="" />
+                </div>
+                <div class="work__bottom">
+                  <div class="work__title">Landschaft Design</div>
+                  <div class="work__date">June 15, 2012</div>
+                </div>
+              </a>
 
-							<a href="#" class="work">
-								<div class="work__image">
-									<img src="img/work6.jpg" alt="" />
-								</div>
-								<div class="work__bottom">
-									<div class="work__title">Landschaft Design</div>
-									<div class="work__date">June 15, 2012</div>
-								</div>
-							</a>
+              <a href="#" class="work">
+                <div class="work__image">
+                  <img src="img/work6.jpg" alt="" />
+                </div>
+                <div class="work__bottom">
+                  <div class="work__title">Landschaft Design</div>
+                  <div class="work__date">June 15, 2012</div>
+                </div>
+              </a>
 
-							<a href="#" class="work">
-								<div class="work__image">
-									<img src="img/work5.jpg" alt="" />
-								</div>
-								<div class="work__bottom">
-									<div class="work__title">Landschaft Design</div>
-									<div class="work__date">June 15, 2012</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<!-- end works -->
-				</div>
-			</div>
-			<!-- end content -->
-		</div>
+              <a href="#" class="work">
+                <div class="work__image">
+                  <img src="img/work5.jpg" alt="" />
+                </div>
+                <div class="work__bottom">
+                  <div class="work__title">Landschaft Design</div>
+                  <div class="work__date">June 15, 2012</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- end works -->
+        </div>
+      </div>
+      <!-- end content -->
+    </div>
 
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__wrap">
-					<div class="footer__col">
-						<div class="footer__title">About Jelmon</div>
-						<div class="footer__text">
-							<p>
-								Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
-								Urbanitas adolescens vim te, per at tritani aperiri. Adhuc
-								invenire convenire his ea. Id mei vitae denique, in eam commodo
-								veritus disputando.
-							</p>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap">
+          <div class="footer__col">
+            <div class="footer__title">About Jelmon</div>
+            <div class="footer__text">
+              <p>
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
+                vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc
+                invenire convenire his ea. Id mei vitae denique, in eam commodo
+                veritus disputando.
+              </p>
 
-							<p>
-								Pro et erant delicata, eu vim essent imperdiet accommodare, dictas
-								deseruisse ius an. Solet everti definitionem id ius, sonet
-								oporteat cu vim.
-							</p>
-						</div>
-					</div>
+              <p>
+                Pro et erant delicata, eu vim essent imperdiet accommodare,
+                dictas deseruisse ius an. Solet everti definitionem id ius,
+                sonet oporteat cu vim.
+              </p>
+            </div>
+          </div>
 
-					<div class="footer__col">
-						<div class="footer__title">Twitter Widget</div>
-						<div class="tweet">
-							<div class="tweet__text">
-								<p>
-									<a href="#">@pixelmater</a> What an awesome design with great
-									functionality :)
-								</p>
-							</div>
-							<div class="tweet__published"><a href="#">about 1 hour ago</a></div>
-						</div>
-						<div class="tweet">
-							<div class="tweet__text">
-								<p>
-									<a href="#">@pixelmater</a> What an awesome design with great
-									functionality :)
-								</p>
-							</div>
-							<div class="tweet__published"><a href="#">about 1 hour ago</a></div>
-						</div>
-						<div class="tweet">
-							<div class="tweet__text">
-								<p>Follow <a href="#">@bestpsdfreebies</a></p>
-							</div>
-						</div>
-					</div>
+          <div class="footer__col">
+            <div class="footer__title">Twitter Widget</div>
+            <div class="tweet">
+              <div class="tweet__text">
+                <p>
+                  <a href="#">@pixelmater</a> What an awesome design with great
+                  functionality :)
+                </p>
+              </div>
+              <div class="tweet__published">
+                <a href="#">about 1 hour ago</a>
+              </div>
+            </div>
+            <div class="tweet">
+              <div class="tweet__text">
+                <p>
+                  <a href="#">@pixelmater</a> What an awesome design with great
+                  functionality :)
+                </p>
+              </div>
+              <div class="tweet__published">
+                <a href="#">about 1 hour ago</a>
+              </div>
+            </div>
+            <div class="tweet">
+              <div class="tweet__text">
+                <p>Follow <a href="#">@bestpsdfreebies</a></p>
+              </div>
+            </div>
+          </div>
 
-					<div class="footer__col">
-						<div class="footer__title">Contact Us</div>
-						<div class="footer__text">
-							<p>
-								Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel.
-								Urbanitas adolescens vim te, per at tritani aperiri.
-							</p>
+          <div class="footer__col">
+            <div class="footer__title">Contact Us</div>
+            <div class="footer__text">
+              <p>
+                Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
+                vel. Urbanitas adolescens vim te, per at tritani aperiri.
+              </p>
 
-							<p>
-								<a href="mailto:" class="footer__whitelinks"
-									>information@jelmon.com</a
-								><br />
-								<a href="#" class="footer__whitelinks">1.222.333.4444</a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
+              <p>
+                <a href="mailto:" class="footer__whitelinks"
+                  >information@jelmon.com</a
+                ><br />
+                <a href="#" class="footer__whitelinks">1.222.333.4444</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </template>
 
-<script></script>
 
 <style lang="sass" scoped>
-@import '@/sass/_mixins.sass'
-// // // // // // // // // // // // // // // // // // // // // // // //
-// PRELOADER
-// // // // // // // // // // // // // // // // // // // // // // // //
-
-
-// .load_screen
-// 	background: #000
-// 	opacity: 1
-// 	position: fixed
-// 	z-index: 299
-// 	top: 0px
-// 	width: 100%
-// 	height: 100%
-
-// .preloader,.preloader:before,.preloader:after
-// 	position: absolute
-// 	top: 50%
-// 	left: 50%
-// 	transform: translate(-50%, -50%)
-// 	border-radius: 50%
-// 	width: 200px
-// 	height: 200px
-// 	box-sizing: border-box
-// 	z-index: 1300
-// 	// display: none
-
-
-// .preloader:before,.preloader:after
-// 	content: ''
-// 	width: 0
-// 	height: 0
-// 	animation: animate 2s linear infinite
-
-// .preloader:before
-
-// .preloader:after
-// 	animation-delay: .6s
-
-// @keyframes animate
-// 	0%
-// 		width: 0
-// 		height: 0
-// 		border: 1px solid #E02727
-// 		box-shadow: 0 0 10px #E02727
-// 		opasity: 1
-// 	70%
-// 		opacity: 1
-// 	100%
-// 		width: 100%
-// 		height: 100%
-// 		border: 2px solid #E02727
-// 		box-shadow: 0 0 10px #E02727
-// 		opacity: 0
-
 @font-face
 	font-family: 'bebas'
 	font-size: normal
 	font-weight: 400
-	src: url('../fonts/bebas.woff')
-	src: url('../fonts/bebas.woff2')
+	src: url('/fonts/bebas.woff')
+	src: url('/fonts/bebas.woff2')
 
-+font('bebas-font',bebas)
 body
 	font-family: Helvetica, sans-serif
 	background: #000
-	color: #FFF  
+	color: #FFF
 =bebas
 	font-family: bebas, sans-serif
 
@@ -392,11 +342,11 @@ body
 	line-height: 31px
 	padding: 0 13px
 	font-weight: bold
-	color: #fff 
+	color: #fff
 	text-decoration: none
 	background: #000
 	transition: .5s ease-out
-	
+
 	+bebas
 	+r(640)
 
@@ -421,10 +371,10 @@ body
 	&:after
 		flex: 1
 		content: ""
-		background: url(../img/pattern.png) repeat
+		background: url(img/pattern.png) repeat
 		left: 100%
 		margin-left: 21px
-		
+
 
 .wrapper
 	background: #000
