@@ -26,12 +26,20 @@
         <div class="container">
           <div class="hero__wrap">
             <div class="slider">
-              <div class="slider__next">{{ mixins.icon("arrow") }}</div>
-              <div class="slider__prev">{{ mixins.icon("arrow") }}</div>
+              <div class="slider__next">
+                <svg class="icon icon-arrow">
+                  <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                </svg>
+              </div>
+              <div class="slider__prev">
+                <svg class="icon icon-arrow">
+                  <use xlink:href="img/sprite.svg#icon-arrow"></use>
+                </svg>
+              </div>
               <div class="slider__slides js-hero">
                 <div
                   class="slider__slide slide"
-                  style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
+                  style="background: url('img/slide.jpg') no-repeat; background-size: cover; background-position: 50% 50%"
                 >
                   <div class="slide__content">
                     <div class="slide__title">Lora Ipsum</div>
@@ -130,7 +138,11 @@
               <div class="feature">
                 <div class="feature__title">
                   <div class="feature__icon">
-                    <div class="icon">{{ mixins.icon("cog") }}</div>
+                    <div class="icon">
+                      <svg class="icon icon-cog">
+                        <use xlink:href="img/sprite.svg#icon-cog"></use>
+                      </svg>
+                    </div>
                   </div>
                   <h2>Check out my latest portfolio items</h2>
                 </div>
@@ -150,7 +162,11 @@
               <div class="feature">
                 <div class="feature__title">
                   <div class="feature__icon">
-                    <div class="icon">{{ mixins.icon("check") }}</div>
+                    <div class="icon">
+                      <svg class="icon icon-check">
+                        <use xlink:href="img/sprite.svg#icon-check"></use>
+                      </svg>
+                    </div>
                   </div>
                   <h2>Offer Top Notch Quality Work & Services</h2>
                 </div>
@@ -170,7 +186,11 @@
               <div class="feature">
                 <div class="feature__title">
                   <div class="feature__icon">
-                    <div class="icon">{{ mixins.icon("user") }}</div>
+                    <div class="icon">
+                      <svg class="icon icon-user">
+                        <use xlink:href="img/sprite.svg#icon-user"></use>
+                      </svg>
+                    </div>
                   </div>
                   <h2>Follow Me on Twitter, Facebook & Pinterest</h2>
                 </div>
@@ -313,7 +333,6 @@
     </footer>
   </div>
 </template>
-
 
 <style lang="sass" scoped>
 @font-face
