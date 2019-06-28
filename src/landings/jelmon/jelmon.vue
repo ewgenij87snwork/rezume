@@ -76,15 +76,12 @@
 
             <!-- begin thumbs -->
             <div class="thumbs">
-              <h1>asdfasf</h1>
               <ul>
-                <!-- :style="{ backgroundImage: 'url(' + imgUrl + ')' }" -->
-                <li v-for="thumbs in thumbs" v-bind:key="thumbs.id">
+                <li v-for="thumb in thumbs" v-bind:key="thumb.id">
                   <a
                     href="#"
-                    :style="{ backgroundImage: 'url(' + imgUrl + ')' }"
-                    >{{ thumbs }}</a
-                  >
+                    :style="{ backgroundImage: 'url(' + thumb + ')' }"
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -297,40 +294,43 @@
     </footer>
   </div>
 </template>
+<!-- ...............................................................................................
 
+
+
+
+
+
+................................................................................................... -->
 <script>
 export default {
   name: "jelmon",
   data: function() {
     return {
       thumbs: [],
-      kk: 6,
-      imgUrl() {
-        return `./img/work1.jpg`;
-      }
+      kk: 6
     };
   },
   methods: {
     k: function() {
       for (let i = 1; i <= this.kk; i++) {
-        this.thumbs.push("./img/work" + i + ".jpg");
+        this.thumbs.push(require("./img/work" + i + ".jpg"));
       }
     }
   },
   mounted: function() {
     this.k();
   }
-
-  // data: function() {
-  //   return {
-  //     imgUrl() {
-  //       return (`./img/work1.jpg`);
-  //     }
-  //   };
-  // }
 };
 </script>
+<!-- ...............................................................................................
 
+
+
+
+
+
+................................................................................................... -->
 <style lang="sass" scoped>
 @font-face
 	font-family: 'bebas'

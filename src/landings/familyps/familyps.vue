@@ -308,7 +308,7 @@
           </div>
         </div>
       </div>
-      <div class="mfp-hide popup forma-svjazi" id="popup">
+      <!--       <div class="mfp-hide popup forma-svjazi" id="popup">
         <form action="static/test-script.php" method="get" target="_blank">
           <div class="feedback-form-group">
             <label for="name">Представьтесь, пожалуйста:</label>
@@ -355,7 +355,7 @@
           </div>
           <input class="btn btn-submit" type="submit" value="Отправить" />
         </form>
-      </div>
+      </div> -->
     </div>
     <!-- END content -->
   </div>
