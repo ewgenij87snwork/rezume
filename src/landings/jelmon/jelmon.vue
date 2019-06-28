@@ -76,12 +76,15 @@
 
             <!-- begin thumbs -->
             <div class="thumbs">
+              <h1>asdfasf</h1>
               <ul>
-                <li>
+                <!-- :style="{ backgroundImage: 'url(' + imgUrl + ')' }" -->
+                <li v-for="thumbs in thumbs" v-bind:key="thumbs.id">
                   <a
                     href="#"
                     :style="{ backgroundImage: 'url(' + imgUrl + ')' }"
-                  ></a>
+                    >{{ thumbs }}</a
+                  >
                 </li>
               </ul>
             </div>
@@ -298,18 +301,33 @@
 <script>
 export default {
   name: "jelmon",
-  // computed: {
-  // 	imgUrl(i) {
-  // 		return require(`"./img/work" + i + ".jpg"`);
-  // 	}
-  // }
   data: function() {
     return {
+      thumbs: [],
+      kk: 6,
       imgUrl() {
-        return require(`./img/work1.jpg`);
+        return `./img/work1.jpg`;
       }
     };
+  },
+  methods: {
+    k: function() {
+      for (let i = 1; i <= this.kk; i++) {
+        this.thumbs.push("./img/work" + i + ".jpg");
+      }
+    }
+  },
+  mounted: function() {
+    this.k();
   }
+
+  // data: function() {
+  //   return {
+  //     imgUrl() {
+  //       return (`./img/work1.jpg`);
+  //     }
+  //   };
+  // }
 };
 </script>
 
