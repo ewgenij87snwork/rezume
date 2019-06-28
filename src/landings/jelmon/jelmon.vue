@@ -37,10 +37,7 @@
                 </svg>
               </div>
               <div class="slider__slides js-hero">
-                <div
-                  class="slider__slide slide"
-                  style="background: url('img/slide.jpg') no-repeat; background-size: cover; background-position: 50% 50%"
-                >
+                <div class="slider__slide slide">
                   <div class="slide__content">
                     <div class="slide__title">Lora Ipsum</div>
                     <div class="slide__text">
@@ -53,10 +50,7 @@
                   </div>
                 </div>
 
-                <div
-                  class="slider__slide slide"
-                  style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
-                >
+                <div class="slider__slide slide">
                   <div class="slide__content">
                     <div class="slide__title">Ipsum Dolor</div>
                     <div class="slide__text">
@@ -67,10 +61,7 @@
                   </div>
                 </div>
 
-                <div
-                  class="slider__slide slide"
-                  style="background: url(img/slide.jpg) no-repeat; background-size: cover; background-position: 50% 50%"
-                >
+                <div class="slider__slide slide">
                   <div class="slide__content">
                     <div class="slide__title">Dolor Amet</div>
                     <div class="slide__text">
@@ -87,40 +78,14 @@
             <div class="thumbs">
               <ul>
                 <li>
+                  <!-- :style='{ backgroundImage: "url(" + imgUrl + ")", }' -->
+                  <!-- style='{ background-image: url("/img/work1.jpg"), }' -->
+                  <!-- :style='{ backgroundImage: "url(img/work" + {{k}} + ".jpg)" }' -->
                   <a
                     href="#"
-                    style="background: url(img/work.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    style="background: url(img/work2.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    style="background: url(img/work3.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    style="background: url(img/work4.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    style="background: url(img/work5.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    style="background: url(img/work6.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
-                  ></a>
+                    :style="{ backgroundImage: 'url(' + imgUrl + ')' }"
+                    >gggg</a
+                  >
                 </li>
               </ul>
             </div>
@@ -334,6 +299,24 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "jelmon",
+  // computed: {
+  // 	imgUrl() {
+  // 		return require(`img/work1.jpg`);
+  // 	}
+  // }
+  data: function() {
+    return {
+      imgUrl() {
+        return require(`./img/work1.jpg`);
+      }
+    };
+  }
+};
+</script>
+
 <style lang="sass" scoped>
 @font-face
 	font-family: 'bebas'
@@ -508,6 +491,9 @@ body
 		fill: rgba(#fff, .2)
 .slide
 	position: relative
+	background: url(img/slide.jpg) no-repeat
+	background-size: cover
+	background-position: 50% 50%
 	&__content
 		position: absolute
 		bottom: 31px
@@ -545,6 +531,10 @@ body
 			grid-template-columns: repeat(3,1fr)
 		li
 			a
+				background: url(img/work1.jpg)
+				background-size: cover
+				background-position: 50% 50%
+				background-repeat: no-repeat
 				display: block
 				padding-bottom: 60%
 				border-radius: 3px

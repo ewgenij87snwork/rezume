@@ -42,7 +42,6 @@ export default {
 </script>
 
 <style scoped lang="sass">
-@import '@/sass/_mixins.sass'
 .work
 	display: block
 	text-decoration: none
