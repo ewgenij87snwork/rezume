@@ -78,14 +78,10 @@
             <div class="thumbs">
               <ul>
                 <li>
-                  <!-- :style='{ backgroundImage: "url(" + imgUrl + ")", }' -->
-                  <!-- style='{ background-image: url("/img/work1.jpg"), }' -->
-                  <!-- :style='{ backgroundImage: "url(img/work" + {{k}} + ".jpg)" }' -->
                   <a
                     href="#"
                     :style="{ backgroundImage: 'url(' + imgUrl + ')' }"
-                    >gggg</a
-                  >
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -303,8 +299,8 @@
 export default {
   name: "jelmon",
   // computed: {
-  // 	imgUrl() {
-  // 		return require(`img/work1.jpg`);
+  // 	imgUrl(i) {
+  // 		return require(`"./img/work" + i + ".jpg"`);
   // 	}
   // }
   data: function() {
