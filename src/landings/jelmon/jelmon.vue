@@ -303,6 +303,7 @@
 
 ................................................................................................... -->
 <script>
+import Slick from 'vue-slick'
 export default {
   name: "jelmon",
   data: function() {
@@ -332,17 +333,21 @@ export default {
 
 ................................................................................................... -->
 <style lang="sass" scoped>
+@import "./sass/oldNormalise.sass"
+
+
 @font-face
 	font-family: 'bebas'
 	font-size: normal
 	font-weight: 400
-	src: url('/fonts/bebas.woff')
-	src: url('/fonts/bebas.woff2')
+	src: url('./fonts/bebas.woff')
+	src: url('./fonts/bebas.woff2')
 
 body
 	font-family: Helvetica, sans-serif
 	background: #000
 	color: #FFF
+
 =bebas
 	font-family: bebas, sans-serif
 
@@ -541,6 +546,7 @@ body
 		display: grid
 		grid-template-columns: repeat(6,1fr)
 		grid-gap: 17px
+		list-style-type: none
 		+r(620)
 			grid-template-columns: repeat(3,1fr)
 		li

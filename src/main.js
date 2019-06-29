@@ -6,7 +6,7 @@ import "./registerServiceWorker";
 
 import "@/sass/_mixins.sass";
 // NPM
-// import "../node_modules/normalize.css/normalize.css";
+import "../node_modules/normalize.css/normalize.css";
 
 Vue.config.productionTip = false;
 

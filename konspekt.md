@@ -1,5 +1,11 @@
 https://ewgenij77snwork.github.io/rezume/
 ________________________________________________
+29.06.2019
++ поставил правильный путь к шрифтам
+- подключить slick-slider
+
+
+________________________________________________
 28.06.2019
 ERROR: жму ссылку на ленгдинг - переход происходит не на начало (верх) страницы, а на второй экран. Так на familyps и jelmon
 
@@ -16,13 +22,49 @@ ERROR: итак, есть список из 6 позиций... внутри  ba
  tag <a> has no matching end tag.
  или
  Unexpected closing tag "a". It may happen when the tag has already been closed by another tag.
+ 
+ ПИЗДЕЦ РЕШЕН -- через цикл наполняем массив background-адресов, затем через цыкл выводим список ссылок, с картинками на фоне: 
+                 <li v-for="thumb in thumbs" v-bind:key="thumb.id">
+                  <a
+                    href="#"
+                    :style="{ backgroundImage: 'url(' + thumb + ')' }"
+                  ></a>
+                </li>
+                ....
+                ....
+                export default {
+                  name: "jelmon",
+                  data: function() {
+                    return {
+                      thumbs: [],
+                      kk: 6
+                    };
+                  },
+                  methods: {
+                    k: function() {
+                      for (let i = 1; i <= this.kk; i++) {
+                        this.thumbs.push(require("./img/work" + i + ".jpg"));
+                      }
+                    }
+                  },
+                  mounted: function() {
+                    this.k();
+                  }
+                };
+
 
 Если ударяюсь в тупик -- то не рвать волосы, а медленно наслаждаться изучением окружающего мира...
+
+NEXT
+normilize.css must be return, because in "jelmon" some problem with ul sytles
+
+FIND
+@import "~normalize.css/normalize.css" -- assets to node-modules folder
 ________________________________________________
 27.06.2019 
 Очередной сука тупик: normalize.css "This dependency was not found"
 
-!!!! Микро прогресс -- normalize.css как "неменяемый, а просто копируемый" следует копировать в папку PUBLIC. Пока час пришлось ждать с телефоном - вичитал возможные варианты решения этой проблемы ("This dependency was not found"):
+!!!! Микро прогресс -- normalize.css как "неменяемый, а просто копируемый" следует копировать в папку PUBLIC. Пока час пришлось ждать  с телефоном - вичитал возможные варианты решения этой проблемы ("This dependency was not found"):
 	- проверить json на css-loader, style-loader...
 	- во vue.config.js проверить "@": path.resolve (у меня ещё нету этого конфигурационного файла )
 	- заменить путь с "@" на "~@"
@@ -181,7 +223,7 @@ _mixins.sass -- можно ли чтобы при подключении их в
 </div>
 
 
-ВЫШЛО В БРАЗЕРЕ:
+ВЫШЛО В БРАУЗЕРЕ:
 
 { path: "/familyps", name: "familyps", component: () => import("./landings/familyps/familyps.vue") } ........
 /////////////////////////////////
