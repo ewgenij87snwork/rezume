@@ -1,5 +1,6 @@
 # rezume
-
+Портфолио-резюме 
+Сорокин Евгений
 ## Project setup
 ```
 yarn install
