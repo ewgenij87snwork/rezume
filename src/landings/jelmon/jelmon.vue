@@ -174,9 +174,9 @@
           <div class="works">
             <h3 class="h3">RECENT Landschaft WORKS</h3>
             <div class="work__wrap">
-              <a href="#" class="work">
+              <a href="#" class="work" v-for="work in works" :key="work">
                 <div class="work__image">
-                  <img src="img/work8.jpg" alt="" />
+                  <img :src="work" alt="" />
                 </div>
                 <div class="work__bottom">
                   <div class="work__title">Landschaft Design</div>
@@ -184,38 +184,9 @@
                 </div>
               </a>
 
-              <a href="#" class="work">
-                <div class="work__image">
-                  <img src="img/work3.jpg" alt="" />
-                </div>
-                <div class="work__bottom">
-                  <div class="work__title">Landschaft Design</div>
-                  <div class="work__date">June 15, 2012</div>
-                </div>
-              </a>
-
-              <a href="#" class="work">
-                <div class="work__image">
-                  <img src="img/work6.jpg" alt="" />
-                </div>
-                <div class="work__bottom">
-                  <div class="work__title">Landschaft Design</div>
-                  <div class="work__date">June 15, 2012</div>
-                </div>
-              </a>
-
-              <a href="#" class="work">
-                <div class="work__image">
-                  <img src="img/work5.jpg" alt="" />
-                </div>
-                <div class="work__bottom">
-                  <div class="work__title">Landschaft Design</div>
-                  <div class="work__date">June 15, 2012</div>
-                </div>
-              </a>
+              <!-- end works -->
             </div>
           </div>
-          <!-- end works -->
         </div>
       </div>
       <!-- end content -->
@@ -316,7 +287,13 @@ export default {
         swipe: true,
         nextArrow: ".slider__next",
         prevArrow: ".slider__prev"
-      }
+      },
+      works: [
+        require("./img/work8.jpg"),
+        require("./img/work3.jpg"),
+        require("./img/work5.jpg"),
+        require("./img/work6.jpg")
+      ]
     };
   },
   methods: {
@@ -361,6 +338,30 @@ body
 =bebas
   font-family: bebas, sans-serif
 
+// svg icon styles--------------------------
+.icon-arrow
+  width: 0.69em
+  height: 1em
+  fill: #FFF
+
+
+.icon-check
+  width: 1.2em
+  height: 1em
+  fill: #E8663C
+
+
+.icon-cog
+  width: 1em
+  height: 1em
+  fill: #E8663C
+
+
+.icon-user
+  width: 1.05em
+  height: 1em
+  fill: #E8663C
+// ------------------------------------
 
 .container
   max-width: 940px
@@ -427,7 +428,7 @@ body
       background-size: cover
 
 .header
-  margin: 21px 0
+  padding: 21px 0
   +bebas
   +r(650)
     display: block
@@ -514,6 +515,7 @@ body
     transform: rotate(-180deg)
     margin-top: -8px
     right: 20px
+    left: auto
 .slider
   .icon
     cursor: pointer
@@ -625,6 +627,7 @@ body
   &__text
     font-size: 12px
     margin-bottom: 17px
+    color: rgba(#fff, .7)
     +r(840)
       margin-bottom: 15px
       line-height: 1.6
