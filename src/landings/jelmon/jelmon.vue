@@ -27,13 +27,12 @@
             <div class="slider">
               <div class="slider__next">
                 <svg class="icon icon-arrow">
-                  <use xlink:href="require('./img/sprite.svg#icon-arrow')"></use>
+                  <use xlink:href="./img/sprite.svg#icon-arrow"></use>
                 </svg>
               </div>
-              <!-- <use xlink:href="img/sprite.svg#icon-arrow"></use> -->
               <div class="slider__prev">
                 <svg class="icon icon-arrow">
-                  <use v-bind:xlink:href="iconArrow"></use>
+                  <use xlink:href="./img/sprite.svg#icon-arrow"></use>
                 </svg>
               </div>
               <!-- ////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -102,7 +101,7 @@
                   <div class="feature__icon">
                     <div class="icon">
                       <svg class="icon icon-cog">
-                        <use xlink:href="img/sprite.svg#icon-cog"></use>
+                        <use xlink:href="./img/sprite.svg#icon-cog"></use>
                       </svg>
                     </div>
                   </div>
@@ -126,7 +125,7 @@
                   <div class="feature__icon">
                     <div class="icon">
                       <svg class="icon icon-check">
-                        <use xlink:href="img/sprite.svg#icon-check"></use>
+                        <use xlink:href="./img/sprite.svg#icon-check"></use>
                       </svg>
                     </div>
                   </div>
@@ -150,7 +149,7 @@
                   <div class="feature__icon">
                     <div class="icon">
                       <svg class="icon icon-user">
-                        <use xlink:href="img/sprite.svg#icon-user"></use>
+                        <use xlink:href="./img/sprite.svg#icon-user"></use>
                       </svg>
                     </div>
                   </div>
@@ -312,9 +311,6 @@ export default {
     return {
       thumbs: [],
       kk: 6,
-      imgUrl: {
-        iconArrow: require("./icons/arrow.svg")
-      },
       slickOptions: {
         dots: true,
         swipe: true,
