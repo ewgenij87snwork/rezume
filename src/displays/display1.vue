@@ -9,7 +9,7 @@
 					| Сорокин Евгений Николаевич
 				br
 				br
-				a(href="#")
+				a(href="https://ewgenij87snwork.github.io/rezume/")
 					| Ссылка на GitHub
 				br
 				a(href="https://ewgenij87snwork.github.io/rezume/")

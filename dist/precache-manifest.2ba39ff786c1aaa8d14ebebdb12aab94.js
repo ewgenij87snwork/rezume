@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/img/work6.cf6dd69e.jpg"
   },
   {
-    "revision": "479905deb7189d091d8870050d7b3e24",
-    "url": "/img/phone-call.479905de.svg"
-  },
-  {
     "revision": "2120422515965e69a70e40e7280eecc4",
     "url": "/img/family.21204225.svg"
+  },
+  {
+    "revision": "479905deb7189d091d8870050d7b3e24",
+    "url": "/img/phone-call.479905de.svg"
   },
   {
     "revision": "970e84f39ffff6e1eaa0bf0b998dae42",
