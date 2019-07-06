@@ -19,6 +19,35 @@ HEROKU INSTRUCTION
 - 1. vuejs-test-app|master ⇒ heroku git:remote -a vuejs-test-app
 - 2. heroku buildpacks:set heroku/nodejs
 - 3. .gitconfig: ALIAS: git her = subtree push --prefix dist heroku master
+
+
+package.json:
+
+{
+  "name": "rezume-build",
+  "version": "1.0.0",
+  "description": "Heroku App",
+  "author": "ewgenij87snwork",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
+
+-----
+
+server.js:
+
+var express = require('express')
+var path = require('path')
+var serveStatic = require('serve-static')
+app = express()
+app.use(serveStatic(__dirname))
+var port = process.env.PORT || 5000
+app.listen(port)
+console.log('server started ' + port)
+
+
 ________________________________________________
 !!!привязать ссылки-акки (git, facebook)
 

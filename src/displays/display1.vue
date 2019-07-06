@@ -1,7 +1,6 @@
 <template lang="pug">
 	div.container
 		.header__wrap
-			particles.particles
 			h1
 				| Портфолио-резюме
 				br
@@ -9,13 +8,14 @@
 					| Сорокин Евгений Николаевич
 				br
 				br
-				a(href="https://ewgenij87snwork.github.io/rezume/")
+				a(href="https://github.com/ewgenij87snwork/rezume" target="_blank")
 					| Ссылка на GitHub
 				br
-				a(href="https://ewgenij87snwork.github.io/rezume/")
+				a(href="https://github.com/ewgenij87snwork/rezume" target="_blank")
 					| Ссылка на Facebook
 			.rightSide
 				img(src="@/assets/155_bg_450px_419px.jpg" alt="Сорокин Е.Н.")
+			particles.particles
 		.sides
 			.leftSide
 				.aboutMe
@@ -64,8 +64,10 @@ export default {
 		display: block
 	h1
 		align-self: center
+		z-index: 10
 		a
 			font-size: .7em
+			z-index: 10
 
 .particles
 	width: 100%
