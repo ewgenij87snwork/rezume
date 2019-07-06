@@ -275,9 +275,15 @@
 ................................................................................................... -->
 <script>
 import Slick from "vue-slick";
+
 export default {
   name: "jelmon",
   components: { Slick },
+  // created: {
+  //   k3: function() {
+  //  return body.classList.add("nameClass")
+  // }
+  // },
   data: function() {
     return {
       thumbs: [],
@@ -303,6 +309,13 @@ export default {
       }
     }
   },
+  computed: {
+    // computedStyles(){
+    //      var style = {body:{}}
+    //      style.body.paddingBottom = '50px'
+    //      return style
+    //    },
+  },
   mounted: function() {
     this.k();
     // this.k2();
@@ -310,15 +323,18 @@ export default {
 };
 </script>
 <!-- ...............................................................................................
-
-
+А что е
+// router.beforeEach((to, from, next) => {
+  // ...
+// })
 
 
 
 
 ................................................................................................... -->
 <style lang="sass" scoped>
-@import "./sass/oldNormalise.sass"
+// @import "./sass/oldNormalise.sass"
+// @import "./css/body.css"
 // @import `node_modules/slick-carousel/slick/slick.css`
 @import "~slick-carousel/slick/slick.css"
 @import "~slick-carousel/slick/slick-theme.css"
@@ -334,7 +350,6 @@ body
   font-family: Helvetica, sans-serif
   background: #000
   color: #FFF
-
 =bebas
   font-family: bebas, sans-serif
 
@@ -413,12 +428,11 @@ body
   position: relative
   z-index: 200
   box-shadow: 0 0 50px rgba(#000, .8)
-body
-  padding-bottom: 45vh
+  margin-bottom: 45vh
   +r(820)
-    padding-bottom: 70vh
+    margin-bottom: 70vh
   +r(640)
-    padding-bottom: 100vh
+    margin-bottom: 100vh
 .content
   .container
     overflow: hidden
