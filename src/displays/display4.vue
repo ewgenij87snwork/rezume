@@ -4,7 +4,7 @@
       <div class="already">
         <h4>Такое уже делал</h4>
         <ul>
-          <li><span></span>подключие preloader</li>
+          <li><span></span>подключение preloader</li>
           <li>
             <span></span>эффект начального появления всего материала на сайте
           </li>
