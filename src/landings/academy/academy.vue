@@ -3,9 +3,19 @@
     <div class="other">
       <transitionTitle></transitionTitle>
       <h1>{{ landingsLink }}</h1>
-      <h1>{{ landingsLink }} </h1>
-      <h3>Если вы первый раз перешли на эту страницу -- это будут первые слова на странице. Если видите сверху название сайта -- вы зашли на эту страницу второй раз (без перезагрузки браузера)</h3>
-      <h5>Как же это можно использовать для интернет-магазинов... Ну хотя бы -- при возврате на страницу "подождать 2 секунды и обновить все кнопки" Как это выделить?... Ну чтобы выделить нужно разобраться как работают "хуки" VueJS.</h5>
+      <h1>{{ landingsLink }}</h1>
+      <p>Без стилей app.sass подключенных</p>
+      <h3>
+        Если вы первый раз перешли на эту страницу -- это будут первые слова на
+        странице. Если видите сверху название сайта -- вы зашли на эту страницу
+        второй раз (без перезагрузки браузера)
+      </h3>
+      <h5>
+        Как же это можно использовать для интернет-магазинов... Ну хотя бы --
+        при возврате на страницу "подождать 2 секунды и обновить все кнопки" Как
+        это выделить?... Ну чтобы выделить нужно разобраться как работают "хуки"
+        VueJS.
+      </h5>
     </div>
     <!-- begin preloader -->
     <div class="preloader">
@@ -16,16 +26,17 @@
       </div>
     </div>
     <!-- end preloader -->
-    
+
     <!-- begin header -->
     <div class="header">
       <div class="logo">
-        <img src="img/logo.png" alt="">
+        <img src="img/logo.png" alt="" />
       </div>
       <div class="navigation">
         <ul class="nav">
           <li class="p15">
-            <a href="#">Program
+            <a href="#"
+              >Program
               <div class="t1">
                 <div class="in"></div>
               </div>
@@ -35,7 +46,8 @@
             </a>
           </li>
           <li class="p15">
-            <a href="#">For foretag
+            <a href="#"
+              >For foretag
               <div class="t1">
                 <div class="in"></div>
               </div>
@@ -45,7 +57,8 @@
             </a>
           </li>
           <li class="list-down p15">
-            <a href="#">Om Academy
+            <a href="#"
+              >Om Academy
               <div class="t1">
                 <div class="in"></div>
               </div>
@@ -55,7 +68,8 @@
             </a>
             <ul class="nav-down">
               <li class="p15">
-                <a href="#">For foretag
+                <a href="#"
+                  >For foretag
                   <div class="t1">
                     <div class="in"></div>
                   </div>
@@ -65,7 +79,8 @@
                 </a>
               </li>
               <li class="p15">
-                <a href="#">For foretag
+                <a href="#"
+                  >For foretag
                   <div class="t1">
                     <div class="in"></div>
                   </div>
@@ -75,7 +90,8 @@
                 </a>
               </li>
               <li class="p15">
-                <a href="#">For foretag
+                <a href="#"
+                  >For foretag
                   <div class="t1">
                     <div class="in"></div>
                   </div>
@@ -85,7 +101,8 @@
                 </a>
               </li>
               <li class="p15">
-                <a href="#">For foretag
+                <a href="#"
+                  >For foretag
                   <div class="t1">
                     <div class="in"></div>
                   </div>
@@ -95,7 +112,8 @@
                 </a>
               </li>
               <li class="p15">
-                <a href="#">For foretag
+                <a href="#"
+                  >For foretag
                   <div class="t1">
                     <div class="in"></div>
                   </div>
@@ -106,7 +124,6 @@
               </li>
             </ul>
           </li>
-          
         </ul>
       </div>
       <button>Bli IT-konsult</button>
@@ -116,7 +133,7 @@
     <!-- begin photo -->
     <div class="photo">
       <div class="container">
-        <img src="img/image.jpg" alt="">
+        <img src="img/image.jpg" alt="" />
       </div>
     </div>
     <!-- end photo -->
@@ -124,13 +141,17 @@
     <div class="section">
       <div class="container">
         <h1 class="section__title">Vara konsulter</h1>
-        <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam assumenda adipisci commodi cum nobis, architecto amet nostrum obcaecati eius! Iste ea dolore tempora illum, voluptatum dolor deleniti consequuntur itaque veniam doloribus quos dolores, obcaecati eaque laboriosam voluptatibus ex voluptas fugiat magni mollitia tenetur placeat expedita. Reprehenderit aut, delectus quidem rem.</p>
+        <p class="section__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
+          assumenda adipisci commodi cum nobis, architecto amet nostrum
+          obcaecati eius! Iste ea dolore tempora illum, voluptatum dolor
+          deleniti consequuntur itaque veniam doloribus quos dolores, obcaecati
+          eaque laboriosam voluptatibus ex voluptas fugiat magni mollitia
+          tenetur placeat expedita. Reprehenderit aut, delectus quidem rem.
+        </p>
       </div>
     </div>
     <!-- end section -->
-
-
-    
   </div>
 </template>
 <script>
@@ -154,11 +175,9 @@ export default {
       this.landingsLink = data.landingsLink;
     });
     // preloader
-    
-
   }
 };
 </script>
-<style>
-  @import url(./sass/app.sass);
+<style scoped lang="sass">
+// @import url(./sass/app.sass)
 </style>
