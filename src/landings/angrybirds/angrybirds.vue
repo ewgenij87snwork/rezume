@@ -1,6 +1,15 @@
 <template>
   <div>
     <!-- <linkHome></linkHome> -->
+    <div class="linkGit">
+      <h3>
+        Чтобы увидеть сделанный "лендинг", перейдите на<br /><a
+          href="https://ewgenij87snwork.github.io/angrybirds/"
+        >
+          <h2>GitHub Pages</h2></a
+        >
+      </h3>
+    </div>
     <h1 class="js-split">Academy</h1>
   </div>
 </template>

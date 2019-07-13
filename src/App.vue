@@ -23,6 +23,11 @@ export default {
 html, body
   padding: 0
   margin: 0
+.linkGit
+  min-height: 10vh
+  margin: 15%
+  padding: 15%
+  background: rgba(0,128,128, .6)
 
 #app
 

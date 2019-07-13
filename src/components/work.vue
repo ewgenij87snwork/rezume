@@ -1,10 +1,7 @@
 <template>
   <div>
     <div @click="landingsLink">
-      <router-link
-        :to="'https://www.ewgenij87snwork.github.io' + landings.link + '/page.html'"
-        class="work"
-      >
+      <router-link :to="landings.link" class="work">
         <div class="work__image">
           <img :src="imgUrl" alt="" />
         </div>

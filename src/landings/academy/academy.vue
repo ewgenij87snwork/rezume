@@ -1,6 +1,15 @@
 <template>
   <div class="out" id="loading">
     <div class="other">
+      <div class="linkGit">
+        <h3>
+          Чтобы увидеть сделанный лендинг, перейдите на<br /><a
+            href="https://ewgenij87snwork.github.io/academy/"
+          >
+            <h2>GitHub Pages</h2></a
+          >
+        </h3>
+      </div>
       <transitionTitle></transitionTitle>
       <h1>{{ landingsLink }}</h1>
       <h1>{{ landingsLink }}</h1>

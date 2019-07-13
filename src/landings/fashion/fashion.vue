@@ -1,5 +1,14 @@
 <template>
   <div id="incoming">
+    <div class="linkGit">
+      <h3>
+        Чтобы увидеть сделанный лендинг, перейдите на<br /><a
+          href="https://ewgenij87snwork.github.io/fashion/"
+        >
+          <h2>GitHub Pages</h2></a
+        >
+      </h3>
+    </div>
     <div class="out">
       <div class="wrap">
         <!-- begin header -->
