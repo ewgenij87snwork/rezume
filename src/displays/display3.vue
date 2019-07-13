@@ -27,7 +27,6 @@ export default {
 };
 </script>
 <style lang="sass" scoped>
-@import '@/sass/_mixins.sass'
 .container
 	max-width: 940px
 	margin: 0 auto

@@ -28,7 +28,6 @@ export default {
 };
 </script>
 <style lang="sass" scoped>
-@import '@/sass/_mixins.sass'
 
 
 .works

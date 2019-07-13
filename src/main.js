@@ -4,7 +4,7 @@ import router from "./router";
 // import store from "./store";
 import "./registerServiceWorker";
 
-import "@/sass/_mixins.sass";
+// import "@/sass/_mixins.sass";
 // NPM
 // import "../node_modules/normalize.css/normalize.css";
 

@@ -28,12 +28,25 @@
               </div>
             </nav>
             <div class="header__icons">
-              <a href="#" class="header__btn">{{ mixins.icon("search") }}</a>
+              <a href="#" class="header__btn"
+                ><div
+                  class="icon"
+                  style="background: url(require('./icon/search.svg'))"
+                ></div
+              ></a>
               <a href="#" class="cart header__btn">
                 <div class="cart-number">4</div>
-                {{ mixins.icon("cart") }}
-              </a>
-              <a href="#" class="header__btn">{{ mixins.icon("dots") }}</a>
+                <div
+                  class="icon"
+                  style="background: url(require('./icon/cart.svg'))"
+                ></div
+              ></a>
+              <a href="#" class="header__btn"
+                ><div
+                  class="icon"
+                  style="background: url(require('./icon/dots.svg'))"
+                ></div
+              ></a>
             </div>
           </div>
         </div>
@@ -65,3 +78,21 @@
     </div>
   </div>
 </template>
+<script></script>
+<style scoped lang="scss">
+/*	.icon-cart {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+.icon-dots {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}
+.icon-search {
+  width: 1em;
+  height: 1em;
+  fill: initial;
+}*/
+</style>

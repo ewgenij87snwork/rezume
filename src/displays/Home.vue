@@ -95,7 +95,7 @@ export default {
 };
 </script>
 <style scoped lang="sass">
-@import '@/../../sass/_mixins.sass'
+// @import '@/sass/_mixins.sass';
 .out
   background: #DCDCDC
 .wrapper>*
