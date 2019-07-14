@@ -71,6 +71,13 @@ export default {
 		a
 			font-size: .7em
 			z-index: 10
+			color: #FFF
+			background: rgba(0,0,0, .3)
+			padding: 5px
+			text-decoration: none
+			line-height: 2.4
+			border-radius: 5px
+			box-shadow: 5px 5px 5px 5px rgba(255,255,255,.7)
 
 .particles
 	width: 100%
