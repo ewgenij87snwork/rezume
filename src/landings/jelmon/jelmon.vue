@@ -332,8 +332,8 @@ export default {
 
 
 ................................................................................................... -->
-<style lang="sass" scoped>
-// @import "./sass/oldNormalise.sass"
+<style scoped lang="sass">
+@import "./sass/oldNormalise.sass"
 // @import "./css/body.css"
 // @import `node_modules/slick-carousel/slick/slick.css`
 @import "~slick-carousel/slick/slick.css"

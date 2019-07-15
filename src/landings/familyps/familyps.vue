@@ -378,7 +378,7 @@ export default {
 };
 </script>
 
-<style scopped lang="sass">
+<style scoped lang="sass">
 @import "./css/main.css"
 .out
   background: black

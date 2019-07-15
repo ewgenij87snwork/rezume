@@ -3,7 +3,8 @@
     <!-- <linkHome></linkHome> -->
     <div class="linkGit">
       <h3>
-        Чтобы увидеть сделанный "лендинг", перейдите на<br /><a
+        Посколько данное портфолио еще делается,<br />
+        чтобы увидеть сделанный сайт, перейдите на<br /><a
           href="https://ewgenij87snwork.github.io/angrybirds/"
         >
           <h2>GitHub Pages</h2></a

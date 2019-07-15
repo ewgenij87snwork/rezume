@@ -68,6 +68,7 @@ export default {
 	h1
 		align-self: center
 		z-index: 10
+		font-size: 2em
 		a
 			font-size: .7em
 			z-index: 10

@@ -1,29 +1,22 @@
-<!-- <template>
-  <ul>
-    <li v-for="item in thumbs">
-      {{ item }}
-    </li>
-  </ul>
+<template>
+  <div class="linkGit">
+    <h3>
+      Посколько данное портфолио еще делается,<br />
+      чтобы увидеть сделанный сайт, перейдите на<br /><a
+        href="https://ewgenij87snwork.github.io/distantjob/"
+      >
+        <h2>GitHub Pages</h2></a
+      >
+    </h3>
+  </div>
 </template>
 <script>
 export default {
   name: "distantjob",
   data: function() {
-    return {
-      thumbs: [],
-      kk: 6
-    };
+    return {};
   },
-  methods: {
-    k: function() {
-      for (let i = 0; i < this.kk; i++) {
-        this.thumbs.push(i);
-      }
-    }
-  },
-  mounted: function() {
-    this.k();
-  }
+  methods: {},
+  mounted: function() {}
 };
 </script>
- -->
