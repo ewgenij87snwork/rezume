@@ -334,8 +334,6 @@ export default {
 ................................................................................................... -->
 <style scoped lang="sass">
 @import "./sass/oldNormalise.sass"
-// @import "./css/body.css"
-// @import `node_modules/slick-carousel/slick/slick.css`
 @import "~slick-carousel/slick/slick.css"
 @import "~slick-carousel/slick/slick-theme.css"
 
@@ -345,7 +343,6 @@ export default {
   font-weight: 400
   src: url('./fonts/bebas.woff')
   src: url('./fonts/bebas.woff2')
-
 body
   font-family: Helvetica, sans-serif
   background: #000
