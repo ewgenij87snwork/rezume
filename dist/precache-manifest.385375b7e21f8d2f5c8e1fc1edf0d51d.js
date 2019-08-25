@@ -108,12 +108,12 @@ self.__precacheManifest = [
     "url": "/img/work1.2359490e.jpg"
   },
   {
-    "revision": "057aaad9148f2f3342b8ca6e695dc5f2",
-    "url": "/fonts/bebas.057aaad9.woff2"
-  },
-  {
     "revision": "ce9b4921267e66cf0694832a10f30dfe",
     "url": "/fonts/bebas.ce9b4921.woff"
+  },
+  {
+    "revision": "057aaad9148f2f3342b8ca6e695dc5f2",
+    "url": "/fonts/bebas.057aaad9.woff2"
   },
   {
     "revision": "642971caa62e5f04438019b944f6b4b7",
@@ -204,12 +204,16 @@ self.__precacheManifest = [
     "url": "/img/work8.c4204abe.jpg"
   },
   {
-    "revision": "998fd6a975c233b241f32979381bb64c",
+    "revision": "62c93d4ccf569ce5536b175f1e96577e",
     "url": "/index.html"
   },
   {
-    "revision": "0f969f157bff2e816e05323c84e8542e",
-    "url": "/favicon.png"
+    "revision": "b5f8b753589958353d0d4841e1e87e50",
+    "url": "/favicon-16x16.png"
+  },
+  {
+    "revision": "b5f8b753589958353d0d4841e1e87e50",
+    "url": "/favicon-32x32.png"
   },
   {
     "revision": "735ab4f94fbcd57074377afca324c813",
