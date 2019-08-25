@@ -115,13 +115,8 @@ export default {
 };
 </script>
 <style scoped lang="sass">
-// @import '@/sass/_mixins.sass';
 .out
   background: #DCDCDC
-// .wrapper>*
-//   margin-top: 100px
-//   &:first-child
-//     margin-top: 0
 .fff
   border-top: 20px solid rgba(98, 129, 202, 0.35)
 .footer

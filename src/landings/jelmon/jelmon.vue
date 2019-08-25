@@ -1,6 +1,7 @@
 <template>
   <div class="out">
     <div class="wrapper">
+      <buttonBack />
       <header class="header">
         <div class="container">
           <div class="header__wrap">
@@ -275,15 +276,13 @@
 ................................................................................................... -->
 <script>
 import Slick from "vue-slick";
-
+import buttonBack from "@/components/buttonBack";
 export default {
   name: "jelmon",
-  components: { Slick },
-  // created: {
-  //   k3: function() {
-  //  return body.classList.add("nameClass")
-  // }
-  // },
+  components: {
+    Slick,
+    buttonBack
+  },
   data: function() {
     return {
       thumbs: [],
@@ -461,6 +460,7 @@ body
       padding-bottom: 25px
   &__nav
     margin-left: auto
+    white-space: nowrap
     +r(650)
       line-height: 2
 

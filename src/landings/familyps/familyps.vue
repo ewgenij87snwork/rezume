@@ -3,6 +3,7 @@
     <!-- BEGIN content -->
     <div class="out">
       <div class="wrapper">
+        <buttonBack/>
         <div class="page-header">
           <div class="grid-header">
             <div class="header-top">
@@ -402,8 +403,12 @@
 
 
 <script>
+import buttonBack from "@/components/buttonBack";
 export default {
   name: "familyps",
+  components: {
+    buttonBack
+  },
   props: {
     k: Array
   },

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view />
+    <!-- start from displays/home.vue -->
   </div>
 </template>
 
@@ -13,7 +14,7 @@ export default {
 </script>
 
 <style lang="sass">
-// @import '@/sass/_mixins.sass';
+// @import '@/sass/_mixins.sass'
 
 .container
   max-width: 940px
