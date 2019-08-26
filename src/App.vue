@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view />
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
     <!-- start from displays/home.vue -->
   </div>
 </template>
@@ -15,6 +17,12 @@ export default {
 
 <style lang="sass">
 // @import '@/sass/_mixins.sass'
+.fade-enter-active, .fade-leave-active 
+  transition: all .25s cubic-bezier(1.0, 0.5, 0.8, 1.0)
+
+.fade-enter, .fade-leave-to 
+  transform: translateX(100px)
+  opacity: 0
 
 .container
   max-width: 940px

@@ -25,7 +25,7 @@
     border-left: none
     width: 65px
     height: 32px
-    z-index: 1000
+    z-index: 10
     padding-left: 5px
   &__text
     color: #fff

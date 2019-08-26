@@ -460,7 +460,6 @@ body
       padding-bottom: 25px
   &__nav
     margin-left: auto
-    white-space: nowrap
     +r(650)
       line-height: 2
 
@@ -473,10 +472,13 @@ body
     color: #E02727
     margin-left: 27px
     transition: .25s ease-in
+    white-space: nowrap
     &:active,&:hover
       color: #fff
     +r(650)
       margin: 0 10px
+    +r(550)
+      display: block
 
 .logo__part1,.logo__part2
   font-size: 36px

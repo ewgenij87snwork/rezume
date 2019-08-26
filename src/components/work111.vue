@@ -21,6 +21,11 @@ export default {
   props: {
     landings: Object
   },
+  // data: function() {
+  //   return {
+  //   	landingsLink: Object
+  //   };
+  // },
   methods: {
     landingsLink() {
       eventBus.$emit("landingsLink", {
@@ -37,7 +42,6 @@ export default {
 </script>
 
 <style scoped lang="sass">
-
 .work
 	display: block
 	text-decoration: none
@@ -60,6 +64,7 @@ export default {
 			top: 0
 			bottom: 0
 
+
 	&__bottom
 		border: 1px solid #dbdbdb
 		// border-top: none
@@ -78,7 +83,7 @@ export default {
 		color: #fff
 		+r(450)
 			font-size: 0.8em
-
+		// +bebas
 	&__date
 		font-size: 1em
 		line-height: 1.4
