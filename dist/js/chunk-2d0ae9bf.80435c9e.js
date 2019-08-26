@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0ae9bf"],{"0b90":function(t,n,e){"use strict";e.r(n);var o=function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",{staticClass:"out"})},a=[],u={name:"chart",data:function(){return{}},methods:{},mounted:function(){window.location="https://ewgenij87snwork.github.io/chart/"}},c=u,i=e("2877"),s=Object(i["a"])(c,o,a,!1,null,null,null);n["default"]=s.exports}}]);
+//# sourceMappingURL=chunk-2d0ae9bf.80435c9e.js.map

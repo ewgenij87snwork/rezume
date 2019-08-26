@@ -1,5 +1,6 @@
-<template>
-</template>
+<template
+  ><div class="out"></div
+></template>
 <script>
 export default {
   name: "fashion",
@@ -8,8 +9,8 @@ export default {
   },
   methods: {},
   mounted() {
-    window.location = "https://ewgenij87snwork.github.io/fashion/"
+    window.location = "https://ewgenij87snwork.github.io/fashion/";
   }
-};</script>
-<style scoped lang="sass">
-</style>
+};
+</script>
+<style scoped lang="sass"></style>

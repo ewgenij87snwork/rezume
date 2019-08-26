@@ -1,14 +1,14 @@
 <template>
-<div class="toStart__wrapper animated_button" >
-  <a href="http://ewgenij87snwork.herokuapp.com/" class="toStart">
-    <div class="toStart__text">Back</div>
-  </a>
-</div>
+  <div class="toStart__wrapper animated_button">
+    <a href="http://ewgenij87snwork.herokuapp.com/" class="toStart">
+      <div class="toStart__text">Back</div>
+    </a>
+  </div>
 </template>
 <script>
-	export default {
-		name: 'buttonBack'
-	}
+export default {
+  name: "buttonBack"
+};
 </script>
 <style scoped lang="sass">
 // buttonBack begin styles ______________________________
@@ -45,7 +45,7 @@
     transform: rotate(0) translate(0, 0)
 
   40%
-    transform: rotate(5deg) translate(0, -2px)  
+    transform: rotate(5deg) translate(0, -2px)
 
   45%
     transform: rotate(-3deg) translate(0, -2px)
@@ -81,7 +81,7 @@
     transform: rotate(5deg) translate(0, -2px)
   65%
     transform: rotate(-3deg) translate(0, -2px)
-    
+
   70%
     transform: rotate(0) translate(0, 0)
 // buttonBack end styles ______________________________

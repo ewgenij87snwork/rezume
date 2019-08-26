@@ -1,5 +1,6 @@
-<template>
-</template>
+<template
+  ><div class="out"></div
+></template>
 <script>
 export default {
   name: "chart",
@@ -8,7 +9,7 @@ export default {
   },
   methods: {},
   mounted() {
-    window.location = "https://ewgenij87snwork.github.io/chart/"
+    window.location = "https://ewgenij87snwork.github.io/chart/";
   }
 };
 </script>

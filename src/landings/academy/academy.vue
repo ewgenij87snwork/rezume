@@ -1,4 +1,5 @@
 <template>
+  <div class="out"></div>
 </template>
 <script>
 export default {
@@ -8,8 +9,8 @@ export default {
   },
   methods: {},
   mounted() {
-    window.location = "https://ewgenij87snwork.github.io/academy/"
+    window.location = "https://ewgenij87snwork.github.io/academy/";
   }
-};</script>
-<style scoped lang="sass">
-</style>
+};
+</script>
+<style scoped lang="sass"></style>

@@ -1,5 +1,6 @@
-<template>
-</template>
+<template
+  ><div class="out"></div
+></template>
 <script>
 export default {
   name: "bino",
@@ -8,7 +9,7 @@ export default {
   },
   methods: {},
   mounted() {
-    window.location = "https://ewgenij87snwork.github.io/bino/"
+    window.location = "https://ewgenij87snwork.github.io/bino/";
   }
 };
 </script>

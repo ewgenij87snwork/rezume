@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c9b26"],{"59f2":function(n,e,t){"use strict";t.r(e);var c=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div")},o=[],a={name:"academy",mounted:function(){window.location="https://ewgenij87snwork.github.io/academy/"}},i=a,u=t("2877"),d=Object(u["a"])(i,c,o,!1,null,"06d7ee40",null);e["default"]=d.exports}}]);
-//# sourceMappingURL=chunk-2d0c9b26.a6d8b3ce.js.map

@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c8fd5"],{"56db":function(n,t,e){"use strict";e.r(t);var i=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div")},o=[],u={name:"bizzy",data:function(){return{}},methods:{},mounted:function(){window.location="https://ewgenij87snwork.github.io/bizzy/"}},c=u,a=e("2877"),d=Object(a["a"])(c,i,o,!1,null,null,null);t["default"]=d.exports}}]);
-//# sourceMappingURL=chunk-2d0c8fd5.cb59c898.js.map

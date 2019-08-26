@@ -1,33 +1,26 @@
 <template>
   <div class="out">
-      <div class="wrapper">
-        <display1></display1>
-        <display2 :landings="landings"></display2>
-        <display3 :landings="landings"></display3>
-        <display4 class="fff"></display4>
+    <div class="wrapper">
+      <display1></display1>
+      <display2 :landings="landings"></display2>
+      <display3 :landings="landings"></display3>
+      <display4 class="fff"></display4>
 
-        <footer>
-          <div class="footer">
-            <h4>Some not fixed error in my front-end developing:</h4>
-            <ul>
-              <li>
-                <i
-                  >При переходе на 1-й лендинг (зеленый, familyps) -- сайт
-                  открывается не сверху, а с середины</i
-                >
-              </li>
-              <li>
-                <i
-                  >При переходе с "1-го на 2-й лендинг" -- на 2-м (красно-черный,
-                  jelmon) размер изображений в слайдере и под слайдером
-                  увеличивается на десятки раз. И опять -- сайт открывается не
-                  сверху, а с footer'a</i
-                >
-              </li>
-            </ul>
-          </div>
-        </footer>
-      </div>
+      <footer>
+        <div class="footer">
+          <h4>Some not fixed error in my front-end developing:</h4>
+          <ul>
+            <li>
+              <i
+                >При переходе на 1-й лендинг (зеленый, familyps) -- сайт
+                открывается не сверху, а с середины. Jelmon тоже сразу
+                открывается с футера</i
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </div>
 </template>
 
@@ -116,10 +109,10 @@ export default {
 };
 </script>
 <style scoped lang="sass">
-.fade-enter-active, .fade-leave-active 
+.fade-enter-active, .fade-leave-active
   transition: all 1.25s cubic-bezier(1.0, 0.5, 0.8, 1.0)
 
-.fade-enter, .fade-leave-to 
+.fade-enter, .fade-leave-to
   transform: translateX(100px)
   opacity: 0
 

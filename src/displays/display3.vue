@@ -21,7 +21,7 @@ export default {
     landings: Array
   },
   components: {
-    work,
+    work
     // goOut: () => import('@/components/goOut.vue')
   }
 };

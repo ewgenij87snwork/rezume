@@ -15,7 +15,7 @@ export default {
 };
 </script>
 
-<style lang="sass"> 
+<style lang="sass">
 .shljapa-enter, .shljapa-leave-to
   transform: scale(0.2, 0.2) translateX(-500px) rotate(10deg)
   opacity: 0
@@ -26,7 +26,7 @@ export default {
 .shljapa-enter-active, .shljapa-leave-active
   transition: all 0.8s cubic-bezier(.42, 0, .58, 1)
   transform-origin: center center
-  
+
 .container
   max-width: 940px
   margin: 0 auto
@@ -35,7 +35,7 @@ export default {
 html, body
   padding: 0
   margin: 0
-  background: black 
+  background: black
 .linkGit
   min-height: 10vh
   margin: 15%
