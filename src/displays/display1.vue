@@ -5,7 +5,7 @@
 				| Портфолио-резюме
 				br
 				span
-					| Сорокин Евгений Николаевич
+					| Евгений Николаевич Сорокин
 				br
 				br
 				a(href="https://github.com/ewgenij87snwork/rezume" target="_blank")

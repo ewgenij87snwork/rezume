@@ -1,9 +1,9 @@
 <template>
-	<div class="toStart__wrapper animated_button" >
-    <a href="http://ewgenij87snwork.herokuapp.com/" class="toStart">
-      <div class="toStart__text">Back</div>
-    </a>
-  </div>
+<div class="toStart__wrapper animated_button" >
+  <a href="http://ewgenij87snwork.herokuapp.com/" class="toStart">
+    <div class="toStart__text">Back</div>
+  </a>
+</div>
 </template>
 <script>
 	export default {
@@ -11,6 +11,7 @@
 	}
 </script>
 <style scoped lang="sass">
+// buttonBack begin styles ______________________________
 .toStart
   text-decoration: none
   &__wrapper
@@ -83,4 +84,5 @@
     
   70%
     transform: rotate(0) translate(0, 0)
+// buttonBack end styles ______________________________
 </style>
