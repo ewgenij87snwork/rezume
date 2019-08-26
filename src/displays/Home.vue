@@ -1,16 +1,7 @@
 <template>
   <div class="out">
       <div class="wrapper">
-        <button v-on:click="show = !show" class="subButton">Show method description</button>
-        <div class="methodDescription">
-          <transition name="fade" mode="out-in">
-            <p v-show="show">Метод <b>sss</b>quas maiores, cupiditate possimus vero. Itaque quasi molestiae quia corrupti necessitatibus. Qui architecto suscipit fugiat perspiciatis asperiores ad, placeat repellat eveniet accusantium. Aliquid vel doloribus, rerm ut in.</p>
-          </transition>
-        </div>
-        <transition name="fade" mode="out-in">
-            <display1></display1>
-        </transition>
-
+        <display1></display1>
         <display2 :landings="landings"></display2>
         <display3 :landings="landings"></display3>
         <display4 class="fff"></display4>
@@ -72,7 +63,7 @@ export default {
         {
           id: 3,
           name: "academy",
-          link: "https://ewgenij87snwork.github.io/academy/",
+          link: "/academy",
           src: "academy"
         },
         {

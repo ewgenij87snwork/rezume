@@ -2,14 +2,12 @@
 	<div class="container">
 		<h1>Микро-сайты (from "Code in the Dark")</h1>
 		<div class="works">
-			<!-- <go-out> -->
-				<work 
-				|:landings="landings" 
-				|v-for="(landings, index) in landings" 
-				|v-if="index >= 2" 
-				|:key="landings.id"
-				|> </work>
-			<!-- </go-out> -->
+			<work 
+			|:landings="landings" 
+			|v-for="(landings, index) in landings" 
+			|v-if="index >= 2" 
+			|:key="landings.id"
+			|> </work>
 		</div>
 	</div>
 				
@@ -22,7 +20,6 @@ export default {
   props: {
     landings: Array
   },
-
   components: {
     work,
     // goOut: () => import('@/components/goOut.vue')

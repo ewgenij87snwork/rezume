@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2109f1"],{b959:function(n,t,e){"use strict";e.r(t);var o=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div")},i=[],a={name:"fashion",data:function(){return{}},methods:{},mounted:function(){window.location="https://ewgenij87snwork.github.io/fashion/"}},u=a,s=e("2877"),c=Object(s["a"])(u,o,i,!1,null,"047fa760",null);t["default"]=c.exports}}]);
+//# sourceMappingURL=chunk-2d2109f1.dcb5a5e4.js.map

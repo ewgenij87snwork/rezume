@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <transition name="fade" mode="out-in">
+    <transition name="shljapa" mode="out-in">
       <router-view />
     </transition>
     <!-- start from displays/home.vue -->
@@ -15,15 +15,18 @@ export default {
 };
 </script>
 
-<style lang="sass">
-// @import '@/sass/_mixins.sass'
-.fade-enter-active, .fade-leave-active 
-  transition: all .25s cubic-bezier(1.0, 0.5, 0.8, 1.0)
-
-.fade-enter, .fade-leave-to 
-  transform: translateX(100px)
+<style lang="sass"> 
+.shljapa-enter, .shljapa-leave-to
+  transform: scale(0.2, 0.2) translateX(-500px) rotate(10deg)
   opacity: 0
 
+.shljapa-enter-to, .shljapa-leave
+  opacity: .8
+  transform: scale(1, 1) translateX(0px)
+.shljapa-enter-active, .shljapa-leave-active
+  transition: all 0.8s cubic-bezier(.42, 0, .58, 1)
+  transform-origin: center center
+  
 .container
   max-width: 940px
   margin: 0 auto
@@ -32,6 +35,7 @@ export default {
 html, body
   padding: 0
   margin: 0
+  background: black 
 .linkGit
   min-height: 10vh
   margin: 15%
