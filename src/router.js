@@ -58,6 +58,11 @@ export default new Router({
       path: "/fashion",
       name: "fashion",
       component: () => import("./landings/fashion/fashion.vue")
+    },
+    {
+      path: "/frontendworkbook",
+      name: "frontendworkbook",
+      component: () => import("./landings/frontendworkbook/frontendworkbook.vue")
     }
   ]
 });

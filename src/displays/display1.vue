@@ -2,37 +2,37 @@
 	div.container
 		.header__wrap
 			h1
-				| Портфолио-резюме
+				| Portfolio-resume
 				br
 				span
-					| Евгений Николаевич Сорокин
+					| Ewgenij Sorokin
 				br
 				br
 				a(href="https://github.com/ewgenij87snwork/rezume" target="_blank")
-					| Ссылка на GitHub
+					| Link to GitHub
 				br
 				a(href="https://ewgenij87snwork.herokuapp.com/" target="_blank")
-					| Ссылка на Heroku
+					| Link to Heroku
 				br
 				a(href="https://www.facebook.com/100002256371507" target="_blank")
-					| Ссылка на Facebook
+					| Link to Facebook
 			.rightSide
 				img(src="@/assets/155_bg_450px_419px.jpg" alt="Сорокин Е.Н.")
 			particles.particles
 		.sides
 			.leftSide
 				.aboutMe
-				
 					p
-						| Мне 31 год. Ищу возможность работать и учиться на должности html-верстальщика (Junior Front-End Developer), в последующем развиваться в сторону VueJS. Пока в базисе знания html, css; поверхностное представление и попытки использовать js, vuejs. Git -- использовал только 3 команды: add, commit и push... В общем мой опыт на данный момент укладывается в этот "сайт-портфолио" с переходами на 7 "лендингов" и "сайт-конспект", который по сути является тренировочным плацдармом для английского, javascript, vueJS, анимационных переходов, архитектуры,
+						| I am 31 years old. Looking for an opportunity to work and study in the position of html-builder (Junior Front-End Developer). I have knowledge of html, css; basic presentation and attempts to use js, vuejs... In general, my experience at the moment fits into this "site portfolio" with transitions to 7 "landings" and "site-conspectus", which is essentially a training ground for English, javascript, vueJS, little animated transitions, architecture and other.
 
 					p
-						| Мне нравится работать над созданием сайтов, т.к. это открывает бескрайнюю тропу -- "Путь Знания". Последние несколько лет, параллельно работе учусь создавать сайты. Проходил удаленные курсы по верстке (2,5 месяца - раз в неделю), проходил пару лет назад курсы по html/css от htmlacademy (31 курс, 541 задание, общий прогрес - 41%). Учился по видео Юрия Артюха (2 сайта - верстка, 1 сайт перевод на Vue Cli). Учился по бесплатным интенсивам WebCademy. Делал сайт по уроках FrontCoder. Все же знаний и практики за длительный срок скопилось не достаточно -- то забрасывал на длительные периоды и многое забывал, то после 8-10 часовой рабочей смены учеба "откладывалась на потом", то днями зацыкливался на непонятных/непроходимых вещах. 
-						<!-- то долбаное "дизайнерство" со своим теребоньканьем тутеличек сжыгало время похлеще танков -->
+						| I like to work on creation of the websites since it opens a deep path - "Way of Knowledge". The last several years after work I learn to create the websites. But, unfortunately, the knowledge and practice for a long time accumulated not enough -- or threw away for long periods and forgotten a lot, or after 8-10 hours of work shift study "put away for later", or stayed stuck on incomprehensible / impassable things for days.
+						<!-- Проходил удаленные курсы по верстке (2,5 месяца - раз в неделю), проходил пару лет назад курсы по html/css от htmlacademy (31 курс, 541 задание, общий прогрес - 41%). Учился по видео Юрия Артюха (2 сайта - верстка, 1 сайт перевод на Vue Cli). Учился по бесплатным интенсивам WebCademy. Делал сайт по уроках FrontCoder.  -->
+						<!-- то долбаное "дизайнерство" со своим теребоньканьем тютеличек сжыгало время похлеще танков -->
 
 					br
 					p
-						| P.s. Прошу прощения за косяки на этом сайте -- я учусь и постоянно узнаю что-то новое, и, конечно, хочется сделать это портфолио лучше, но времени переделывать каждую осознанную деталь, к сожалению, нету.
+						| P.s. I'm sorry about the errors on this sites -- I'm learning and I'm constantly learning something new, and, of course, I'd like to make portfolio better, but unfortunately, there's no time to remake every understandable detail.
 
 
 </template>
@@ -66,7 +66,11 @@ export default {
 	h1
 		align-self: center
 		z-index: 10
-		font-size: 2em
+		font-size: 2rem
+		span
+			font-weight: bold
+			font-size: 3rem
+			line-height: 2
 		a
 			font-size: .7em
 			z-index: 10
@@ -89,6 +93,7 @@ export default {
 	img
 		max-width: 250px
 		box-shadow: 0px 0px 8px 8px rgba(255,255,255,.7)
-		// border-radius: 2px
-		// border: 3px dashed green
+.aboutMe
+	text-align: left
+	padding: 15px
 </style>

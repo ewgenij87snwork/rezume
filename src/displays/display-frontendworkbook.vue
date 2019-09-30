@@ -1,10 +1,9 @@
 <template lang="pug">
 	div.container
 		h1
-			| Landing page
+			| Now I'm working and studying here:
 		.works 
-			<work :landings="landings[0]"></work>
-			<work :landings="landings[1]"></work>
+			<work :landings="landings[9]"></work>
 
 </template>
 
@@ -12,7 +11,7 @@
 import work from "@/components/work.vue";
 
 export default {
-  name: "display2",
+  name: "displayFrontendworkbook",
   props: {
     landings: Array
   },
@@ -28,14 +27,16 @@ export default {
 };
 </script>
 <style lang="sass" scoped>
+.container
+	max-width: 940px
+	margin: 0 auto
+	margin-bottom: 80px
+	+r(650)
+		margin: 20px
 
 
 .works
-	display: grid
-	grid-template-columns: repeat(2,1fr)
-	grid-gap: 20px
-	padding: 50px
-	padding-top: 0
-	+r(500)
-		grid-template-columns: repeat(1,1fr)
+	max-width: 600px
+	margin: 10px auto
+	
 </style>

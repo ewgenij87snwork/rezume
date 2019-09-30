@@ -2,6 +2,7 @@
   <div class="out">
     <div class="wrapper">
       <display1></display1>
+      <display-frontendworkbook :landings="landings"></display-frontendworkbook>
       <display2 :landings="landings"></display2>
       <display3 :landings="landings"></display3>
       <display4 class="fff"></display4>
@@ -27,6 +28,7 @@
 <script>
 // @ is an alias to /src
 import display1 from "./display1.vue";
+import displayFrontendworkbook from "./display-frontendworkbook.vue";
 import display2 from "./display2.vue";
 import display3 from "./display3.vue";
 import display4 from "./display4.vue";
@@ -37,6 +39,14 @@ import display4 from "./display4.vue";
 // import transitionTitle from "@/components/transitionTitle";
 export default {
   name: "home",
+  components: {
+    display1,
+    displayFrontendworkbook,
+    display2,
+    display3,
+    display4
+    // footer
+  },
   data: function() {
     return {
       show: false,
@@ -94,18 +104,17 @@ export default {
           name: "fashion",
           link: "/fashion",
           src: "fashion"
+        },
+        {
+          id: 10,
+          name: "frontendworkbook",
+          link: "/frontendworkbook",
+          src: "frontendworkbook"
         }
       ]
     };
   },
   // mixins: [transitionTitle],
-  components: {
-    display1,
-    display2,
-    display3,
-    display4
-    // footer
-  }
 };
 </script>
 <style scoped lang="sass">

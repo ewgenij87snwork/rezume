@@ -1,11 +1,11 @@
 <template lang="pug">
 	<div class="container">
-		<h1>Микро-сайты (from "Code in the Dark")</h1>
+		<h1>Micro-sites</h1>
 		<div class="works">
 			<work 
 			|:landings="landings" 
 			|v-for="(landings, index) in landings" 
-			|v-if="index >= 2" 
+			|v-if="index >= 2 && index < 9" 
 			|:key="landings.id"
 			|> </work>
 		</div>
