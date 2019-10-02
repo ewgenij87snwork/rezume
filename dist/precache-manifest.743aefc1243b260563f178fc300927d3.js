@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/img/work6.cf6dd69e.jpg"
   },
   {
-    "revision": "33cf04b7f271affc5445b8b8a1a08640",
-    "url": "/img/nochNicht.33cf04b7.svg"
-  },
-  {
     "revision": "e8db146216a19444d7d2c9547f1cb634",
     "url": "/img/already.e8db1462.svg"
+  },
+  {
+    "revision": "33cf04b7f271affc5445b8b8a1a08640",
+    "url": "/img/nochNicht.33cf04b7.svg"
   },
   {
     "revision": "a1ff9293365d198b87530809091f394b",
@@ -120,12 +120,12 @@ self.__precacheManifest = [
     "url": "/img/sprite.ab4be80a.svg"
   },
   {
-    "revision": "ce9b4921267e66cf0694832a10f30dfe",
-    "url": "/fonts/bebas.ce9b4921.woff"
-  },
-  {
     "revision": "057aaad9148f2f3342b8ca6e695dc5f2",
     "url": "/fonts/bebas.057aaad9.woff2"
+  },
+  {
+    "revision": "ce9b4921267e66cf0694832a10f30dfe",
+    "url": "/fonts/bebas.ce9b4921.woff"
   },
   {
     "revision": "642971caa62e5f04438019b944f6b4b7",
@@ -212,15 +212,15 @@ self.__precacheManifest = [
     "url": "/index.html"
   },
   {
+    "revision": "735ab4f94fbcd57074377afca324c813",
+    "url": "/robots.txt"
+  },
+  {
     "revision": "b5f8b753589958353d0d4841e1e87e50",
     "url": "/favicon-16x16.png"
   },
   {
     "revision": "b5f8b753589958353d0d4841e1e87e50",
     "url": "/favicon-32x32.png"
-  },
-  {
-    "revision": "735ab4f94fbcd57074377afca324c813",
-    "url": "/robots.txt"
   }
 ];
