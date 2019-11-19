@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="listWrap">
-      <div class="already">
+      <div class="already side">
         <h4>Такое уже делал</h4>
         <ul>
           <li><span></span>подключение preloader</li>
@@ -31,7 +31,7 @@
         </ul>
       </div>
       <div class="line"></div>
-      <div class="nochNicht">
+      <div class="nochNicht side">
         <h4>С таким хочу разбираться</h4>
         <ul>
           <li><span></span>VueJs, а через него и JavaScript осваивать</li>
@@ -96,12 +96,20 @@ ul
 	display: flex
 	-webkit-justify-content: space-between
 	justify-content: space-between
+	+r(600)
+		display: block
+		.side
+			+r(600)
+				width: 95%
+				margin: 0 auto
+		
 .line
 	background: #161616
 	width: 5px
 	height: auto
 .already
 	width: 47%
+
 	ul
 		li
 			padding-right: 0

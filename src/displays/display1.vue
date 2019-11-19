@@ -5,7 +5,7 @@
 				| Portfolio-resume
 				br
 				span
-					| Ewgenij Sorokin
+					| Yevhenii Sorokin
 				br
 				br
 				a(href="https://github.com/ewgenij87snwork/rezume" target="_blank")
@@ -23,7 +23,7 @@
 			.leftSide
 				.aboutMe
 					p
-						| I am 31 years old. Looking for an opportunity to work and study in the position of html-builder (Junior Front-End Developer). I have knowledge of html, css; basic presentation and attempts to use js, vuejs... In general, my experience at this moment fits into this "site portfolio" with transitions to 7 "landings" and "site-conspect", which is essentially a training ground for English, javascript, vueJS, little animated transitions, architecture and other.
+						| I am 31 years old. Looking for an opportunity to work and study in the position of html-builder (Junior Front-End Developer). I have knowledge of html, css; basic presentation and attempts to use js, vuejs... In general, my experience at this moment fits into this "site portfolio" with transitions to 9 "landings" and "site-conspect"(frontendworkbook), which is essentially a training ground for English, javascript, vueJS, little animated transitions, architecture and other.
 
 					p
 						| I like to work on creation of the websites since it opens a deep path - "Way of Knowledge". The last several years after work I learn to create the websites. But, unfortunately, the knowledge and practice for a long time accumulated not enough -- or threw away for long periods and forgotten a lot, or after 8-10 hours of work shift study "put away for later", or stopped before incomprehensible / impassable things for days, weeks.
@@ -68,9 +68,13 @@ export default {
 		z-index: 10
 		font-size: 2rem
 		span
+			display: inline-block
+			margin-top: 30px
+			border-top: 1px solid 
+			border-bottom: 1px solid 
 			font-weight: bold
 			font-size: 3rem
-			line-height: 2
+			line-height: 1.44
 		a
 			font-size: .7em
 			z-index: 10
@@ -93,6 +97,7 @@ export default {
 	img
 		max-width: 250px
 		box-shadow: 0px 0px 8px 8px rgba(255,255,255,.7)
+		+r(360)
 .aboutMe
 	text-align: left
 	padding: 15px
