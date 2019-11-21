@@ -102,7 +102,7 @@ ul
 			+r(600)
 				width: 95%
 				margin: 0 auto
-		
+
 .line
 	background: #161616
 	width: 5px

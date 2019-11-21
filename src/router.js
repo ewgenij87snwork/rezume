@@ -62,7 +62,8 @@ export default new Router({
     {
       path: "/frontendworkbook",
       name: "frontendworkbook",
-      component: () => import("./landings/frontendworkbook/frontendworkbook.vue")
+      component: () =>
+        import("./landings/frontendworkbook/frontendworkbook.vue")
     }
   ]
 });

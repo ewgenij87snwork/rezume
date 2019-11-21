@@ -70,8 +70,8 @@ export default {
 		span
 			display: inline-block
 			margin-top: 30px
-			border-top: 1px solid 
-			border-bottom: 1px solid 
+			border-top: 1px solid
+			border-bottom: 1px solid
 			font-weight: bold
 			font-size: 3rem
 			line-height: 1.44

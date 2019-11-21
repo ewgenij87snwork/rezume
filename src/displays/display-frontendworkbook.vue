@@ -38,5 +38,4 @@ export default {
 .works
 	max-width: 600px
 	margin: 10px auto
-	
 </style>

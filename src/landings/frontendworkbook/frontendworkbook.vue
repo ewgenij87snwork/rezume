@@ -1,7 +1,6 @@
 <template
   ><div class="out">
-  	<buttonBack />
-  </div
+    <buttonBack /></div
 ></template>
 <script>
 export default {
@@ -10,13 +9,12 @@ export default {
     return {};
   },
   components: {
-  	'buttonBack': () => import('@/components/buttonBack')
+    buttonBack: () => import("@/components/buttonBack")
   },
   methods: {},
   mounted() {
-    window.open('https://frontendworkbook.herokuapp.com', '_blank');
+    window.open("https://frontendworkbook.herokuapp.com", "_blank");
   }
 };
 </script>
-<style>
-</style>
+<style></style>

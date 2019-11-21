@@ -113,7 +113,7 @@ export default {
         }
       ]
     };
-  },
+  }
   // mixins: [transitionTitle],
 };
 </script>

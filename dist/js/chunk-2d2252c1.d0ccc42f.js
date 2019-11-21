@@ -1,2 +1,2 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2252c1"],{e2ec:function(n,t,e){"use strict";e.r(t);var i=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",{staticClass:"out"})},o=[],s={name:"angrybirds",mounted:function(){window.location="https://ewgenij87snwork.github.io/angrybirds/"}},c=s,u=e("2877"),a=Object(u["a"])(c,i,o,!1,null,null,null);t["default"]=a.exports}}]);
-//# sourceMappingURL=chunk-2d2252c1.2bfc0fee.js.map
+//# sourceMappingURL=chunk-2d2252c1.d0ccc42f.js.map
