@@ -23,7 +23,7 @@
 			.leftSide
 				.aboutMe
 					p
-						| I am 31 years old. Looking for an opportunity to work and study in the position of html-builder (Junior Front-End Developer). I have knowledge of html, css; basic presentation and attempts to use js, vuejs... In general, my experience at this moment fits into this "site portfolio" with transitions to 9 "landings" and "site-conspect"(frontendworkbook), which is essentially a training ground for English, javascript, vueJS, little animated transitions, architecture and other.
+						| I am 32 years old. Looking for an opportunity to work and study in the position of html-builder (Junior Front-End Developer). I have knowledge of html, css; basic presentation and attempts to use js, vuejs... In general, my experience at this moment fits into this "site portfolio" with transitions to 9 "landings" and "site-conspect"(frontendworkbook), which is essentially a training ground for English, javascript, vueJS, little animated transitions, architecture and other.
 
 					p
 						| I like to work on creation of the websites since it opens a deep path - "Way of Knowledge". The last several years after work I learn to create the websites. But, unfortunately, the knowledge and practice for a long time accumulated not enough -- or threw away for long periods and forgotten a lot, or after 8-10 hours of work shift study "put away for later", or stopped before incomprehensible / impassable things for days, weeks.

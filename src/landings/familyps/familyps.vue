@@ -396,10 +396,7 @@ export default {
     k: Array
   },
   methods: {
-    ga: function() {
-      console.log("sdsd");
-      return;
-    }
+
   }
 };
 </script>

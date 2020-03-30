@@ -1,2 +1,2 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b722c"],{"1fab":function(t,n,o){"use strict";o.r(n);var e=function(){var t=this,n=t.$createElement,o=t._self._c||n;return o("div",{staticClass:"out"})},i=[],a={name:"distantjob",data:function(){return{}},methods:{},mounted:function(){window.location="https://ewgenij87snwork.github.io/distantjob/"}},s=a,u=o("2877"),c=Object(u["a"])(s,e,i,!1,null,null,null);n["default"]=c.exports}}]);
-//# sourceMappingURL=chunk-2d0b722c.b0469fad.js.map
+//# sourceMappingURL=chunk-2d0b722c.f1734a4e.js.map

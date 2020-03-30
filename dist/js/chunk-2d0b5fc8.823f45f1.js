@@ -1,2 +1,2 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b5fc8"],{"1adf":function(n,t,o){"use strict";o.r(t);var e=function(){var n=this,t=n.$createElement,o=n._self._c||t;return o("div",{staticClass:"out"})},i=[],u={name:"bino",data:function(){return{}},methods:{},mounted:function(){window.location="https://ewgenij87snwork.github.io/bino/"}},a=u,c=o("2877"),s=Object(c["a"])(a,e,i,!1,null,null,null);t["default"]=s.exports}}]);
-//# sourceMappingURL=chunk-2d0b5fc8.c4be4627.js.map
+//# sourceMappingURL=chunk-2d0b5fc8.823f45f1.js.map
