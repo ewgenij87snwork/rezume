@@ -4,29 +4,26 @@
       <div class="already side">
         <h4>Такое уже делал</h4>
         <ul>
-          <li><span></span>подключение preloader</li>
           <li>
-            <span></span>эффект начального появления всего материала на сайте
-          </li>
-          <li><span></span>эффекты при наведении</li>
-          <li><span></span>flex (загуглить как расписать)</li>
-          <li><span></span>подключение шрифтов</li>
-          <li><span></span>выпадающее меню</li>
-          <li><span></span>адаптация под мобильные дисплеи</li>
-          <li><span></span>popup (всплывающие окна)</li>
-          <li>
-            <span></span>небольшая настройка javascript (--это переписать как
-            правильно)
-          </li>
-          <li><span></span>слайдер</li>
-          <li>
-            <span></span>
-            размещение сайта на GithubPages, с которого сайт потом размещается
-            на бесплатном домене
+            <span></span>some simple preloader
           </li>
           <li>
-            <span></span>
-            размещение сайта на Heroku
+            <span></span>deploy to Heroku
+          </li>
+          <li>
+            <span></span>deploy to GitPages
+          </li>
+          <li>
+            <span></span>some hover-effests
+          </li>
+          <li>
+            <span></span>mobile adaptive
+          </li>
+          <li>
+            <span></span>dropdown menu
+          </li>
+          <li>
+            <span></span>popup
           </li>
         </ul>
       </div>
@@ -34,15 +31,33 @@
       <div class="nochNicht side">
         <h4>С таким хочу разбираться</h4>
         <ul>
-          <li><span></span>VueJs, а через него и JavaScript осваивать</li>
-          <li><span></span>Эффекты прокрутки страницы (scrolling)</li>
-          <li><span></span>БЭМ-нейминг</li>
-          <li><span></span>Git-репозитории (выход с разных аккаунтв)</li>
-          <li><span></span>Миксины (собирательство )</li>
-          <li><span></span>Canvas</li>
-          <li><span></span>Фон в движении</li>
-          <li><span></span>Все доступные свойства transition (>animation)</li>
-          <li><span></span>Загрузка файлов на сайт</li>
+          <li>
+            <span></span>VueJs, а через него и JavaScript осваивать
+          </li>
+          <li>
+            <span></span>Эффекты прокрутки страницы (scrolling)
+          </li>
+          <li>
+            <span></span>БЭМ-нейминг
+          </li>
+          <li>
+            <span></span>Git-репозитории (выход с разных аккаунтв)
+          </li>
+          <li>
+            <span></span>Миксины (собирательство )
+          </li>
+          <li>
+            <span></span>Canvas
+          </li>
+          <li>
+            <span></span>Фон в движении
+          </li>
+          <li>
+            <span></span>Все доступные свойства transition (>animation)
+          </li>
+          <li>
+            <span></span>Загрузка файлов на сайт
+          </li>
           <li>
             <span></span>Взаимодействие с 1 000 000 базой продуктов,
             исторических статей
@@ -98,10 +113,10 @@ ul
 	justify-content: space-between
 	+r(600)
 		display: block
-		.side
-			+r(600)
-				width: 95%
-				margin: 0 auto
+	.side
+		+r(600)
+			width: 95%
+			margin: 0 auto
 
 .line
 	background: #161616

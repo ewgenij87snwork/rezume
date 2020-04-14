@@ -2,9 +2,9 @@
   <div class="out">
     <div class="wrapper">
       <display1></display1>
-      <display-frontendworkbook :landings="landings"></display-frontendworkbook>
       <display2 :landings="landings"></display2>
       <display3 :landings="landings"></display3>
+      <display-frontendworkbook :landings="landings"></display-frontendworkbook>
       <display4 class="fff"></display4>
 
       <footer>
@@ -12,11 +12,11 @@
           <h4>Some not fixed error in my front-end developing:</h4>
           <ul>
             <li>
-              <i
-                >При переходе на 1-й лендинг (зеленый, familyps) -- сайт
+              <i>
+                При переходе на 1-й лендинг (зеленый, familyps) -- сайт
                 открывается не сверху, а с середины. Jelmon тоже сразу
-                открывается с футера</i
-              >
+                открывается с футера
+              </i>
             </li>
           </ul>
         </div>
@@ -28,9 +28,9 @@
 <script>
 // @ is an alias to /src
 import display1 from "./display1.vue";
-import displayFrontendworkbook from "./display-frontendworkbook.vue";
 import display2 from "./display2.vue";
 import display3 from "./display3.vue";
+import displayFrontendworkbook from "./display-frontendworkbook.vue";
 import display4 from "./display4.vue";
 /*
   import footer from "./displays/footer.vue"
@@ -41,9 +41,9 @@ export default {
   name: "home",
   components: {
     display1,
-    displayFrontendworkbook,
     display2,
     display3,
+    displayFrontendworkbook,
     display4
     // footer
   },

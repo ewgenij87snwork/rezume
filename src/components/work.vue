@@ -3,11 +3,11 @@
     <div @click="landingsLink">
       <router-link :to="landings.link" class="work">
         <div class="work__image">
-          <img :src="imgUrl" alt="" />
+          <img :src="imgUrl" alt />
         </div>
         <div class="work__bottom">
-          <div class="work__title">Перейти</div>
-          <div class="work__date">к просмотру <br />{{ landings.name }}</div>
+          <div class="work__title">{{ landings.name }}</div>
+          <div class="work__go">go to view</div>
         </div>
       </router-link>
     </div>
@@ -76,15 +76,15 @@ export default {
 		font-size: 1.5em
 		margin-bottom: 5px
 		color: #fff
-		+r(450)
-			font-size: 0.8em
+		// +r(450)
+		// font-size: 0.8em
 
-	&__date
-		font-size: 1em
+	&__go
+		font-size: .75em
 		line-height: 1.4
 		color: #fff
-		+r(450)
-			font-size: 0.6em
+		// +r(450)
+		// font-size: 0.6em
 	&:hover,&:active
 		.work__bottom
 			min-width: 60%
@@ -99,7 +99,7 @@ export default {
 			// +r(640)
 			// 	letter-spacing: 2px
 
-		.work__date
+		.work__go
 			transition: .5s ease-out
 			letter-spacing: 2px
 </style>

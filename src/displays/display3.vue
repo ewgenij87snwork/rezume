@@ -1,16 +1,11 @@
 <template lang="pug">
 	<div class="container">
-		<h1>Micro-sites</h1>
+		<h1>...and "micro-sites"</h1>
 		<div class="works">
-			<work 
-			|:landings="landings" 
-			|v-for="(landings, index) in landings" 
-			|v-if="index >= 2 && index < 9" 
-			|:key="landings.id"
-			|> </work>
+			<work :landings="landings" v-for="(landings, index) in landings" v-if="index >= 2 && index < 9" :key="landings.id"> </work>
 		</div>
 	</div>
-				
+
 </template>
 
 <script>

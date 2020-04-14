@@ -1,7 +1,7 @@
 <template lang="pug">
 	div.container
 		h1
-			| Landing page
+			| Old practice in Landing pages
 		.works 
 			<work :landings="landings[0]"></work>
 			<work :landings="landings[1]"></work>
@@ -31,11 +31,11 @@ export default {
 
 
 .works
-	display: grid
-	grid-template-columns: repeat(2,1fr)
-	grid-gap: 20px
-	padding: 50px
-	padding-top: 0
-	+r(500)
-		grid-template-columns: repeat(1,1fr)
+  display: grid
+  grid-template-columns: repeat(2,1fr)
+  grid-gap: 20px
+  padding: 50px
+  padding-top: 0
+  +r(500)
+    grid-template-columns: repeat(1,1fr)
 </style>
