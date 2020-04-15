@@ -1,69 +1,74 @@
-import Vue from "vue";
-import Router from "vue-router";
+import Vue from 'vue';
+import Router from 'vue-router';
 // import academy from "@/landings/academy/academy";
-import home from "@/displays/Home";
+import home from '@/displays/Home';
 
 Vue.use(Router);
 
 export default new Router({
-  mode: "history",
+  mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
-      path: "/",
-      name: "home",
-      component: home
+      path: '/',
+      name: 'home',
+      component: home,
     },
     {
-      path: "/familyps",
-      name: "familyps",
-      component: () => import("./landings/familyps/familyps.vue")
+      path: '/vanillajs',
+      name: 'vanillajs',
+      component: () => import('./landings/vanillajs/vanillajs.vue'),
     },
     {
-      path: "/jelmon",
-      name: "jelmon",
-      component: () => import("./landings/jelmon/jelmon.vue")
+      path: '/familyps',
+      name: 'familyps',
+      component: () => import('./landings/familyps/familyps.vue'),
     },
     {
-      path: "/academy",
-      name: "academy",
-      component: () => import("./landings/academy/academy.vue")
+      path: '/jelmon',
+      name: 'jelmon',
+      component: () => import('./landings/jelmon/jelmon.vue'),
     },
     {
-      path: "/angrybirds",
-      name: "angrybirds",
-      component: () => import("./landings/angrybirds/angrybirds.vue")
+      path: '/academy',
+      name: 'academy',
+      component: () => import('./landings/academy/academy.vue'),
     },
     {
-      path: "/bino",
-      name: "bino",
-      component: () => import("./landings/bino/bino.vue")
+      path: '/angrybirds',
+      name: 'angrybirds',
+      component: () => import('./landings/angrybirds/angrybirds.vue'),
     },
     {
-      path: "/bizzy",
-      name: "bizzy",
-      component: () => import("./landings/bizzy/bizzy.vue")
+      path: '/bino',
+      name: 'bino',
+      component: () => import('./landings/bino/bino.vue'),
     },
     {
-      path: "/chart",
-      name: "chart",
-      component: () => import("./landings/chart/chart.vue")
+      path: '/bizzy',
+      name: 'bizzy',
+      component: () => import('./landings/bizzy/bizzy.vue'),
     },
     {
-      path: "/distantjob",
-      name: "distantjob",
-      component: () => import("./landings/distantjob/distantjob.vue")
+      path: '/chart',
+      name: 'chart',
+      component: () => import('./landings/chart/chart.vue'),
     },
     {
-      path: "/fashion",
-      name: "fashion",
-      component: () => import("./landings/fashion/fashion.vue")
+      path: '/distantjob',
+      name: 'distantjob',
+      component: () => import('./landings/distantjob/distantjob.vue'),
     },
     {
-      path: "/frontendworkbook",
-      name: "frontendworkbook",
+      path: '/fashion',
+      name: 'fashion',
+      component: () => import('./landings/fashion/fashion.vue'),
+    },
+    {
+      path: '/frontendworkbook',
+      name: 'frontendworkbook',
       component: () =>
-        import("./landings/frontendworkbook/frontendworkbook.vue")
-    }
-  ]
+        import('./landings/frontendworkbook/frontendworkbook.vue'),
+    },
+  ],
 });

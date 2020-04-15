@@ -45,6 +45,8 @@ export default {
 	letter-spacing: 1px
 	position: relative
 	border: 1px solid black
+	+r(600)
+		margin: 20px
 
 	&__image
 		overflow: hidden
@@ -54,12 +56,10 @@ export default {
 		img
 			display: block
 			width: 100%
+			height: 100%
 			position: absolute
-			left: 0
-			right: 0
-			top: 0
-			bottom: 0
-
+			object-fit: cover 
+			object-position: center top
 	&__bottom
 		border: 1px solid #dbdbdb
 		// border-top: none
@@ -72,12 +72,13 @@ export default {
 		font-weight: bold
 		opacity: 0
 		max-width: 20%
+		overflow: hidden
 	&__title
 		font-size: 1.5em
 		margin-bottom: 5px
 		color: #fff
-		// +r(450)
-		// font-size: 0.8em
+		+r(450)
+			font-size: 0.8em
 
 	&__go
 		font-size: .75em

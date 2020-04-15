@@ -29,13 +29,21 @@ export default {
 </script>
 <style lang="sass" scoped>
 
-
+body, html 
+  margin: 0
+  padding: 0
+h1
+  +r(500)
+    font-size: 1.2rem
+    padding-top: 50px
+    margin-bottom: 30px
 .works
   display: grid
-  grid-template-columns: repeat(2,1fr)
+  grid-template-columns:  repeat(2,1fr)
   grid-gap: 20px
-  padding: 50px
-  padding-top: 0
+  padding: 0 250px 50px 250px
   +r(500)
+    padding: 10px
     grid-template-columns: repeat(1,1fr)
+    
 </style>

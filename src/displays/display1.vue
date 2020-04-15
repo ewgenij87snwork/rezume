@@ -2,7 +2,7 @@
 	div.container
 		.header__wrap
 			h1
-				| Portfolio-resume
+				| Work package
 				br
 				span
 					| Yevhenii Sorokin
@@ -10,10 +10,8 @@
 			.header__link
 				a(href="https://www.linkedin.com/in/ewgenij-sorokin-829b7b18a" target="_blank")
 					| LinkedIn
-				br
 				a(href="https://github.com/ewgenij87snwork/rezume" target="_blank")
 					| GitHub
-				br
 				a(href="https://www.facebook.com/100002256371507" target="_blank")
 					| Facebook
 			.rightSide
@@ -42,17 +40,28 @@ export default {
 </script>
 
 <style scoped lang="sass">
+* 
+	box-sizing: border-box
+	margin: 0
+
+body, html 
+	margin: 0
+	padding: 0
 .container
-	max-width: 940px
+	width: 940px
+	max-width: 90%
 	margin: 0 auto
-	margin-bottom: 80px
+	margin-bottom: 20px
 	min-height: 100vh
 	min-height: 500px
 	position: relative
+	
 
 
 .header__wrap
 	display: flex
+	flex-direction: column
+	margin-bottom: 30px
 	+r(750)
 		display: block
 	h1
@@ -76,6 +85,10 @@ export default {
 	width: 600px
 	max-width: 100%
 	margin: 0 auto
+	+r(400)
+		flex-direction: column
+		a
+			margin-bottom: 10px
 
 	a
 		font-size: 1.5em
@@ -100,9 +113,11 @@ export default {
 	img
 		max-width: 250px
 		box-shadow: 0px 0px 8px 8px rgba(255,255,255,.7)
-		+r(360)
-		.aboutMe
-			text-align: center
-			font-size: 120%
-			padding: 15px
+.aboutMe
+	font-size: 120%
+	line-height: 140%
+	+r(360)
+		text-align: center
+		padding: 5px
+		font-size: 100%
 </style>

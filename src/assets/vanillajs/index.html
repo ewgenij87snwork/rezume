@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expence Tracker</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Head-conainer -->
+      <a href="http://ewgenij87snwork.herokuapp.com">home</a>
+      <div class="head-container">
+        <h1>Expence Tracker</h1>
+        <div class="balance">
+          <h4>Your balance</h4>
+          <h2 id="balance" class="balance-number">$0.00</h2>
+        </div>
+        <div class="in-exp">
+          <div class="income">
+            <h4>Income</h4>
+            <p id="income">$0.00</p>
+          </div>
+          <div class="expense">
+            <h4>Expense</h4>
+            <p id="expense">$0.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- History-container -->
+      <div class="history-container">
+        <h2 class="title">History</h2>
+        <ul id="list-transactions"></ul>
+      </div>
+
+      <!-- form-container -->
+      <div class="form-container">
+        <h2 class="title">Add new transaction</h2>
+        <form id="submit">
+          <label for="text-transaction">Text</label>
+          <input
+            type="text"
+            id="name-transaction"
+            placeholder="Enter text..."
+          />
+          <label for="amount-transaction"
+            >Amount (negative - expence, positive - income)</label
+          >
+          <input
+            type="number"
+            id="amount-transaction"
+            placeholder="Enter amount..."
+          />
+          <button type="submit" id="add-transaction">Add transaction</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

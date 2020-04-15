@@ -1,13 +1,15 @@
 <template>
   <div class="out">
     <div class="wrapper">
+      <stylereseter></stylereseter>
       <display1></display1>
+      <!-- <displayvanillajs :landings="landings"></displayvanillajs> -->
       <display2 :landings="landings"></display2>
       <display3 :landings="landings"></display3>
       <display-frontendworkbook :landings="landings"></display-frontendworkbook>
-      <display4 class="fff"></display4>
+      <!--<display4 class="fff"></display4>-->
 
-      <footer>
+      <!--<footer>
         <div class="footer">
           <h4>Some not fixed error in my front-end developing:</h4>
           <ul>
@@ -20,31 +22,35 @@
             </li>
           </ul>
         </div>
-      </footer>
+      </footer>-->
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import display1 from "./display1.vue";
-import display2 from "./display2.vue";
-import display3 from "./display3.vue";
-import displayFrontendworkbook from "./display-frontendworkbook.vue";
-import display4 from "./display4.vue";
+import stylereseter from '@/components/stylereseter';
+import display1 from './display1.vue';
+//  import displayvanillajs from "./display-vanillajs.vue";
+import display2 from './display2.vue';
+import display3 from './display3.vue';
+import displayFrontendworkbook from './display-frontendworkbook.vue';
+/* import display4 from "./display4.vue";  */
 /*
   import footer from "./displays/footer.vue"
   */
 
 // import transitionTitle from "@/components/transitionTitle";
 export default {
-  name: "home",
+  name: 'home',
   components: {
+    stylereseter,
     display1,
+    // displayvanillajs,
     display2,
     display3,
     displayFrontendworkbook,
-    display4
+    /* display4 */
     // footer
   },
   data: function() {
@@ -53,71 +59,78 @@ export default {
       landings: [
         {
           id: 1,
-          name: "familyps",
-          link: "/familyps",
-          src: "familyps"
+          name: 'familyps',
+          link: '/familyps',
+          src: 'familyps',
         },
         {
           id: 2,
-          name: "jelmon",
-          link: "/jelmon",
-          src: "jelmon"
+          name: 'jelmon',
+          link: '/jelmon',
+          src: 'jelmon',
         },
         {
           id: 3,
-          name: "academy",
-          link: "/academy",
-          src: "academy"
+          name: 'academy',
+          link: '/academy',
+          src: 'academy',
         },
         {
           id: 4,
-          name: "angrybirds",
-          link: "/angrybirds",
-          src: "angrybirds"
+          name: 'angrybirds',
+          link: '/angrybirds',
+          src: 'angrybirds',
         },
         {
           id: 5,
-          name: "bino",
-          link: "/bino",
-          src: "bino"
+          name: 'bino',
+          link: '/bino',
+          src: 'bino',
         },
         {
           id: 6,
-          name: "bizzy",
-          link: "/bizzy",
-          src: "bizzy"
+          name: 'bizzy',
+          link: '/bizzy',
+          src: 'bizzy',
         },
         {
           id: 7,
-          name: "chart",
-          link: "/chart",
-          src: "chart"
+          name: 'chart',
+          link: '/chart',
+          src: 'chart',
         },
         {
           id: 8,
-          name: "distantjob",
-          link: "/distantjob",
-          src: "distantjob"
+          name: 'distantjob',
+          link: '/distantjob',
+          src: 'distantjob',
         },
         {
           id: 9,
-          name: "fashion",
-          link: "/fashion",
-          src: "fashion"
+          name: 'fashion',
+          link: '/fashion',
+          src: 'fashion',
         },
         {
           id: 10,
-          name: "frontendworkbook",
-          link: "/frontendworkbook",
-          src: "frontendworkbook"
-        }
-      ]
+          name: 'frontendworkbook',
+          link: '/frontendworkbook',
+          src: 'frontendworkbook',
+        },
+        {
+          id: 11,
+          name: 'Project in Vanilla_JS',
+          link: '/vanillajs',
+          src: 'vanillajs',
+        },
+      ],
     };
-  }
+  },
   // mixins: [transitionTitle],
 };
 </script>
 <style scoped lang="sass">
+
 .fade-enter-active, .fade-leave-active
   transition: all 1.25s cubic-bezier(1.0, 0.5, 0.8, 1.0)
 
