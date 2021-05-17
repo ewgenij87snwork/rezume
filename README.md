@@ -1,6 +1,9 @@
-# rezume
-
-Портфолио-резюме
-Сорокин Евгений
+# Portfolio Yevgeniy Sorokin
 
 http://ewgenij87snwork.herokuapp.com/
+
+--------------
+
+**RUN:**
+
+npm run serve
